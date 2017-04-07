@@ -1,0 +1,7 @@
+
+* Control Word
+
+A tile-laying word game with elements of area control and direct
+player interaction.
+
+- Rules :: [[rules.org]]
