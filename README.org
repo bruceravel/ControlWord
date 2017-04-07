@@ -7,6 +7,21 @@ player interaction.
 
 - Rules :: [[rules.org]]
 
+- Cards :: The SVG files, created using [[https://inkscape.org][Inkscape]], are printed (perhaps
+     after converting to PDF) and used for game play
+
+- Styling :: There are various CSS and latex files used to convert the
+     rules into a nice printable PDF file or an HTML page
+
+- Build script :: The [[make_game.sh]] file is a simple shell script which
+     uses [[https://inkscape.org][Inkscape]], [[https://github.com/fniessen/orgmk][orgmk]], and pdflatex to make printable PDF files
+     used in the game.
+
+To play the game, you will also need at least three different colors
+of latter tiles, for example [[https://www.amazon.com/s?ie=UTF8&field-keywords=scrabble%20tiles][here are some possible choices]].
+
+
+
 [[file:images/88x31.png]]
 This game is licensed under a
 [[http://creativecommons.org/licenses/by-sa/4.0/legalcode][Creative Commons Attribution ShareAlike 4.0 International license]]
