@@ -1,0 +1,342 @@
+#+TITLE: Rules for Control Word
+#+AUTHOR: Bruce Ravel
+#+SETUPFILE: "~/dotfiles/org/BR-org.setup"
+#+SETUPFILE: theme-readtheorg-local.setup
+#+LaTeX_HEADER: \input{header.tex}
+
+Control Word is a tile laying word game much like a particular, very
+popular crossword board game, but with elements of area control and
+direct player interaction.  Each player plays words using a different
+color of tiles.  Points are scored by having the most tiles of your
+color in a word at the end of the game.  Longer words score more
+points.  The player who controls the most words and scores the most
+points is the winner!
+
+In each round, each player will play up to two words formed from a
+hand of tiles.  Any tiles not used to play a word can be used to
+replace your opponent's tiles, possibly allowing you to wrest away
+control of that word.  From round to round, turn order will vary, as
+will the number of tiles you can draw into your hand.
+
+
+* Setup
+:PROPERTIES:
+:CUSTOM_ID: Setup
+:END:
+
+
+
+{{{color(red, This information is important.)}}} {{{color(blue, This other isn’t.)}}}
+
+{{{hl(some text)}}}
+
+1. Determine how many rounds you wish to play.
+2. Shuffle the rules deck and select 1 fewer rule cards than the
+   number of rounds.  E.g. for a 10-round game, select 9 rule cards.
+3. Shuffle the removal deck and place one removal card in the second
+   half of the rules pile.  For a 10-round game, the removal card
+   should be placed somewhere after the fifth card.
+4. Roll for initial turn order.
+5. Each player draws 10 blue tiles and chooses 7 to keep.
+
+* Begin the game
+:PROPERTIES:
+:CUSTOM_ID: Begin
+:END:
+
+In turn order, play a word using the hand of blue tiles, then draw
+back up to 7 blue tiles.  Each player plays two words using the blue
+tiles.
+
+Then, each player discards any remaining blue tiles back to the blue
+bag and draws 7 tiles in the player's color.
+
+The blue tiles will no longer be used to form word.  For the remainder
+of the game, the blue tiles are used as *penalty tokens*.
+
+Finally, reveal the top rule card.
+
+* Playing the game
+:PROPERTIES:
+:CUSTOM_ID: Playing
+:END:
+
+Players play in turn order.  In the first round, use the same turn
+order as during the beginning, blue tile round.
+
+For each player, the round consists of three phases:
+
+- Phase 1 :: Play up to the number of words at the top of the rule
+     card.  In a round with 2 words, the player can choose to play 0
+     or 1 words.  In a round with 1 word, the player can choose not to
+     play a word.
+- Phase 2 :: Using tiles remaining after playing in phase 1, change or
+     append up to the specified number of tiles.  See the rules below
+     for changing or appending.  Fewer than the specified number of
+     tiles can be used in this phase with no penalty.
+- Phase 3 :: Draw up (or discard down) to the number of tiles
+     specified on the rule card.
+
+Once each player has played, set the turn order for the next round
+according to the bottom text of the rule card and proceed to the next
+round.  Once all rule tiles have been played, the game ends and
+scoring is determined.
+
+* Rule cards
+:PROPERTIES:
+:CUSTOM_ID: Rulecards
+:END:
+
+Examples of rule cards:
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width 5cm
+[[file:images/cards.jpg]]
+
+
+In a round with the rule card on the right, each player will play 0 or
+1 words using the tiles in hand.  After playing a words, up to 3 of
+the remaining tiles in hand can be used to replace tiles already in
+play or to append to an existing word.  In this way, a player can try
+to wrest control of a word away from an opponent.  Finally, the player
+draws up to a hand of 9 tiles.
+
+In the word playing phase, the rules cards specify that 0, 1, or 2
+cards can be played.  In the change/append phase, 6, 3, or 0 tiles can
+be played.  In the draw phase, each player draws to a hand of 5, 7, or
+9 cards.
+
+Once each player has played according to the rules of the current
+card, turn order for the next round is set.  Equally distributed among
+the cards are instructions to preserve the current turn order, to
+reverse the current turn order, or to reroll for turn order.  That
+determines the order for the following round.
+
+* Phase 1: Playing a word
+:PROPERTIES:
+:CUSTOM_ID: Phase1
+:END:
+
+A word must be an English-language word.  Players should agree upon a
+dictionary to use for resolving challenges.  Proper nouns,
+foreign-language words not adopted into English, acronyms, and
+abbreviations are not allowed.  In short, the rules for allowable
+words are the same as the popular word game that this game resembles.
+
+A word must be played as a crossing word.  Here "mundane" is
+played crossing "bones":
+
+#+ATTR_HTML: :width 35%
+#+ATTR_LATEX: :width 5cm
+[[file:images/mundane.jpg]]
+
+In this phase, you may not simply append tiles to an existing word in
+the same direction.  However, the cross can be a letter appended to a
+word.  For example, the "s" in "music" can be used to pluralize a word
+in the opposite direction, as in this example where the word "bone" is
+pluralized:
+
+#+ATTR_HTML: :width 35%
+#+ATTR_LATEX: :width 5cm
+[[file:images/music.jpg]]
+
+The word "quit" in this example is a legal play, as both "pi" and "it"
+count as crossing words:
+
+#+ATTR_HTML: :width 70%
+#+ATTR_LATEX: :width 5cm
+[[file:images/picnic_quit.jpg]]
+
+Appending "back" to "paper", as in
+
+#+ATTR_HTML: :width 70%
+#+ATTR_LATEX: :width 5cm
+[[file:images/paperback.jpg]]
+
+is not a legal first phase play.  This is different from that other
+popular crossword game.  Note, however, that this would be an
+excellent play in the second phase.
+
+* Phase 2: Change/append tiles
+:PROPERTIES:
+:CUSTOM_ID: Phase2
+:END:
+
+In the second phase, individual tiles are used to replace tiles in a
+word in play.  Tiles can also be appended to the beginning or end of
+another word to make a new word.
+
+This phase is used to take control of words from your opponent.
+
+** Changing
+:PROPERTIES:
+:CUSTOM_ID: Changing
+:END:
+
+Changing tiles is the main tactic for wresting control of a word.  By
+changing enough tiles from your opponent's color to you color, you can
+gain control of your opponent's word.  A letter-for-letter swap is
+quite common, but a letter can be replaced with a different letter so
+long as the word and any crossing words remain valid dictionary words.
+
+In this example, white has changed a black "R" to a white "R":
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width 5cm
+[[file:images/change.jpg]]
+
+Three more changes and white will control the word!
+
+The letter need not be replaced with the same letter so long as the
+resulting word is allowed.  As an example, the word "marking" can be
+changed to "parking" by changing the "m" of one color to a "p" of
+another color.
+
+When changing a tile, discard the tile being removed from the board.
+Do not put it back in its bag.
+
+** Appending
+:PROPERTIES:
+:CUSTOM_ID: Appending
+:END:
+
+In the second phase, you can also append tiles to existing words, for
+example to make make a plural or to add a verb conjugation.  In this
+example, black has added a "Y" to the "grocer":
+
+#+ATTR_HTML: :width 60%
+#+ATTR_LATEX: :width 5cm
+[[file:images/grocery.jpg]]
+
+
+Several letters can be appended as part of the same play, as in the
+example of "paperback" above, so long as the number of tiles on the
+rule card is observed and the word is allowable once all tiles are
+played.
+
+* TODO Replacing a hand
+:PROPERTIES:
+:CUSTOM_ID: Replacing
+:END:
+
+At the beginning of you turn, you can opt to return your hand of tiles
+to your bag and redraw to 2 less than the current hand.  So, draw back
+to 7 in a round with 9 tiles, to 5 in a round with 7, or to 3 in a
+round with 5.  Take one *penalty token*, then proceed with your turn.
+You may redraw as many times as you like, but each subsequent draw
+costs two *penalty tokens*.
+
+* Challenging a word
+:PROPERTIES:
+:CUSTOM_ID: Challenging
+:END:
+
+Any word played in phase 1 or phase 2 can be challenged.  The
+challenge is resolved using a dictionary agreeable to all players.  If
+the challenged word is allowable, play continues.  If the challenged
+word is not allowable, the player who played the word must withdraw
+the tiles played (resetting any changed tiles) and take one *penalty
+token*.  That player does not loose a turn and may make a different
+play immediately.
+
+* Removal cards
+:PROPERTIES:
+:CUSTOM_ID: Removal_Cards
+:END:
+
+In one of the later rounds, a removal card will be drawn as the rule
+card.  
+
+When this happens, each player (in the turn order determined from the
+previous rule card) will choose a word on the board and remove all
+tiles that are not part of a crossing word.  The word can be one that
+is controlled by any player, including the person doing the removal.
+
+For example, the word "great" can be removed by taking the "R", "E",
+and "T" tiles:
+
+#+ATTR_HTML: :width 60%
+#+ATTR_LATEX: :width 5cm
+[[file:images/great.jpg]]
+
+This cannot be done in a way that splits the board, leaving two or
+more unconnected areas on the board.
+
+The tiles removed are then used in the manner of phase 2 of a normal
+turn.  They can be used to change other tiles or append to other
+words.
+
+For each tile cannot be used elsewhere on the board, take a *penalty
+token* for each unused tile.
+
+* Scoring words
+:PROPERTIES:
+:CUSTOM_ID: Scoring
+:END:
+
+Words are scored at the end of the game. 
+
+ * The player with the most tiles (simple plurality) in a word wins
+   that word.  Some examples: A five letter word requires that three
+   letters be of one color in order to claim that word.  Here, white
+   controls the word and receives /[3|5]/ points:
+
+   #+ATTR_HTML: :width 50%
+   #+ATTR_LATEX: :width 5cm
+   [[file:images/plurality5.jpg]]
+
+   A seven letter word can be claimed by black if three tiles are
+   black, two are white, and two have remained blue.  Here, black
+   controls the word and receives /[8|14]/ points:
+
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 5cm
+   [[file:images/plurality7.jpg]]
+
+ * Any word for which the blue tiles are the simple plurality does not
+   score for any player.
+
+ * Any word for for which two (or more) colors are tied for the most
+   tiles does not score for any player.
+
+Long words are rewarded.  Use the chart below for scoring.
+
+* TODO Scoring chart
+:PROPERTIES:
+:CUSTOM_ID: Scoring_chart
+:END:
+
+Scoring is a work in progress.  The two tracks are possible scoring
+schemes.
+
+| word length | Fibonacci track | Geometric track |
+|-------------+-----------------+-----------------|
+|           2 |               1 |               1 |
+|           3 |               1 |               1 |
+|           4 |               2 |               2 |
+|           5 |               3 |               5 |
+|           6 |               5 |               9 |
+|           7 |               8 |              14 |
+|           8 |              13 |              20 |
+|           9 |              21 |              27 |
+|          10 |              34 |              35 |
+|          11 |              55 |              44 |
+|          12 |              89 |              54 |
+
+
+Each J, Q, X, or Z in a word scores a 3 point bonus for the player
+controlling that word.
+
+* End of game
+:PROPERTIES:
+:CUSTOM_ID: End_of_game
+:END:
+
+The game ends when the last rule card is played.  Score each word on
+the board according the rules above.
+
+Each *penalty token* counts for -3 points.
+
+Highest score wins.  Most words controlled is the first tie-breaker.
+Fewest penalty token is second tie-breaker.
+

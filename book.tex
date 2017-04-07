@@ -1,0 +1,31 @@
+%% adapted from http://tex.stackexchange.com/a/307664
+\documentclass{article}
+\usepackage[paper=letterpaper,margin=0in]{geometry}
+\usepackage{graphicx,ifthen,stackengine}
+\newcounter{bookpage}
+\fboxsep=-\fboxrule\relax
+\newcommand\nullpage{\fbox{\rule{0pt}{.49999\paperheight}\rule{.49999\paperwidth}{0pt}}}
+\newcommand\showthepage[3]{%
+  \protect\fbox{\protect\includegraphics%
+    [width=.49999\paperwidth,height=.49999\paperheight,page=#1,angle=#2]{#3}}%
+}
+\parindent 0in
+\setstackgap{S}{0pt}
+\begin{document}
+\Shortstack
+{
+%\showthepage{8}{rules}%
+\nullpage                       %there is no page 8
+\showthepage{1}{0}{rules}
+\showthepage{2}{180}{rules}% these % are important!
+\showthepage{7}{180}{rules} 
+}
+\clearpage
+\Shortstack
+{
+\showthepage{6}{0}{rules}%
+\showthepage{3}{0}{rules}
+\showthepage{4}{180}{rules}%
+\showthepage{5}{180}{rules} 
+}
+\end{document}
