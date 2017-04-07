@@ -4,6 +4,10 @@
 #+SETUPFILE: theme-readtheorg-local.setup
 #+LaTeX_HEADER: \input{header.tex}
 
+#+BEGIN_LaTeX
+\LARGE
+#+END_LaTeX
+
 Control Word is a tile laying word game much like a particular, very
 popular crossword board game, but with elements of area control and
 direct player interaction.  Each player plays words using a different
@@ -90,7 +94,7 @@ scoring is determined.
 Examples of rule cards:
 
 #+ATTR_HTML: :width 50%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/cards.jpg]]
 
 
@@ -127,7 +131,7 @@ A word must be played as a crossing word.  Here "mundane" is
 played crossing "bones":
 
 #+ATTR_HTML: :width 35%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/mundane.jpg]]
 
 In this phase, you may not simply append tiles to an existing word in
@@ -137,20 +141,20 @@ in the opposite direction, as in this example where the word "bone" is
 pluralized:
 
 #+ATTR_HTML: :width 35%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/music.jpg]]
 
 The word "quit" in this example is a legal play, as both "pi" and "it"
 count as crossing words:
 
 #+ATTR_HTML: :width 70%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/picnic_quit.jpg]]
 
 Appending "back" to "paper", as in
 
 #+ATTR_HTML: :width 70%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/paperback.jpg]]
 
 is not a legal first phase play.  This is different from that other
@@ -182,7 +186,7 @@ long as the word and any crossing words remain valid dictionary words.
 In this example, white has changed a black "R" to a white "R":
 
 #+ATTR_HTML: :width 50%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/change.jpg]]
 
 Three more changes and white will control the word!
@@ -205,7 +209,7 @@ example to make make a plural or to add a verb conjugation.  In this
 example, black has added a "Y" to the "grocer":
 
 #+ATTR_HTML: :width 60%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/grocery.jpg]]
 
 
@@ -256,7 +260,7 @@ For example, the word "great" can be removed by taking the "R", "E",
 and "T" tiles:
 
 #+ATTR_HTML: :width 60%
-#+ATTR_LATEX: :width 5cm
+#+ATTR_LATEX: :width 8cm
 [[file:images/great.jpg]]
 
 This cannot be done in a way that splits the board, leaving two or
@@ -282,7 +286,7 @@ Words are scored at the end of the game.
    controls the word and receives /[3|5]/ points:
 
    #+ATTR_HTML: :width 50%
-   #+ATTR_LATEX: :width 5cm
+   #+ATTR_LATEX: :width 8cm
    [[file:images/plurality5.jpg]]
 
    A seven letter word can be claimed by black if three tiles are
@@ -290,7 +294,7 @@ Words are scored at the end of the game.
    controls the word and receives /[8|14]/ points:
 
    #+ATTR_HTML: :width 70%
-   #+ATTR_LATEX: :width 5cm
+   #+ATTR_LATEX: :width 8cm
    [[file:images/plurality7.jpg]]
 
  * Any word for which the blue tiles are the simple plurality does not
@@ -340,3 +344,23 @@ Each *penalty token* counts for -3 points.
 Highest score wins.  Most words controlled is the first tie-breaker.
 Fewest penalty token is second tie-breaker.
 
+#+BEGIN_LaTeX
+\newpage
+
+~
+
+\newpage
+
+~
+
+\newpage
+
+~
+
+\newpage
+
+~
+
+\newpage
+
+#+END_LaTeX

@@ -11,21 +11,55 @@
 }
 \parindent 0in
 \setstackgap{S}{0pt}
+
+%% page 16
+%% page 1
+%% page 9 invert
+%% page 8 invert
+%% page 2
+%% page 15
+%% page 7 invert
+%% page 10 invert
+%% page 14
+%% page 3
+%% page 11 invert
+%% page 6 invert
+%% page 4
+%% page 13
+%% page 5 invert
+%% page 12 invert
+
 \begin{document}
 \Shortstack
 {
-%\showthepage{8}{rules}%
-\nullpage                       %there is no page 8
-\showthepage{1}{0}{rules}
-\showthepage{2}{180}{rules}% these % are important!
-\showthepage{7}{180}{rules} 
+  \showthepage{16}{0}{rules}%
+  \showthepage{1}{0}{rules}
+  \showthepage{9}{180}{rules}% these % are important!
+  \showthepage{8}{180}{rules}
 }
 \clearpage
 \Shortstack
 {
-\showthepage{6}{0}{rules}%
-\showthepage{3}{0}{rules}
-\showthepage{4}{180}{rules}%
-\showthepage{5}{180}{rules} 
+  \showthepage{2}{0}{rules}%
+  \showthepage{15}{0}{rules}
+  \showthepage{7}{180}{rules}%
+  \showthepage{10}{180}{rules} 
 }
+\clearpage
+\Shortstack
+{
+  \showthepage{14}{0}{rules}%
+  \showthepage{3}{0}{rules}
+  \showthepage{11}{180}{rules}%
+  \showthepage{6}{180}{rules}
+}
+\clearpage
+\Shortstack
+{
+  \showthepage{4}{0}{rules}%
+  \showthepage{13}{0}{rules}
+  \showthepage{5}{180}{rules}%
+  \showthepage{12}{180}{rules} 
+}
+\clearpage
 \end{document}
