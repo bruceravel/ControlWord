@@ -29,19 +29,23 @@ will the number of tiles you can draw into your hand.
 :END:
 
 
-
-{{{color(red, This information is important.)}}} {{{color(blue, This other isn’t.)}}}
-
-{{{hl(some text)}}}
-
-1. Determine how many rounds you wish to play.
+1. Decide how many rounds to play.  10 is a good choice for your first
+   game.
 2. Shuffle the rules deck and select 1 fewer rule cards than the
    number of rounds.  E.g. for a 10-round game, select 9 rule cards.
 3. Shuffle the removal deck and place one removal card in the second
    half of the rules pile.  For a 10-round game, the removal card
    should be placed somewhere after the fifth card.
-4. Roll for initial turn order.
+4. Roll to determine who plays first.  Throughout the opening round
+   and in the first scoring round, play continues clockwise from the
+   starting player.
 5. Each player draws 10 blue tiles and chooses 7 to keep.
+
+The game is played on any flat surface which is large enough to hold
+about 20 side-by-side tiles in both directions.  The board from any
+tile-laying word game can be used, but special spaces are ignored and
+words can extend beyond the grid on the board.  It's probably easiest
+to simply play right on the table.
 
 * Begin the game
 :PROPERTIES:
@@ -53,10 +57,11 @@ back up to 7 blue tiles.  Each player plays two words using the blue
 tiles.
 
 Then, each player discards any remaining blue tiles back to the blue
-bag and draws 7 tiles in the player's color.
+bag and draws 7 tiles in her or his chosen tile color.
 
-The blue tiles will no longer be used to form word.  For the remainder
-of the game, the blue tiles are used as *penalty tokens*.
+The blue tiles will no longer be used to form words.  For the
+remainder of the game, the blue tiles are used as
+{{{color(blue,penalty tokens)}}}.
 
 Finally, reveal the top rule card.
 
@@ -86,6 +91,11 @@ according to the bottom text of the rule card and proceed to the next
 round.  Once all rule tiles have been played, the game ends and
 scoring is determined.
 
+If the rule card says to reroll turn order, each player will role the
+die, rerolling to resolve ties.  Turn order in the next round may not
+be simply clockwise or counterclockwise.  You can use blue tiles to
+indicate and help remember turn order.
+
 * Rule cards
 :PROPERTIES:
 :CUSTOM_ID: Rulecards
@@ -99,7 +109,7 @@ Examples of rule cards:
 
 
 In a round with the rule card on the right, each player will play 0 or
-1 words using the tiles in hand.  After playing a words, up to 3 of
+1 words using the tiles in hand.  After playing a word, up to 3 of
 the remaining tiles in hand can be used to replace tiles already in
 play or to append to an existing word.  In this way, a player can try
 to wrest control of a word away from an opponent.  Finally, the player
@@ -178,10 +188,10 @@ This phase is used to take control of words from your opponent.
 :END:
 
 Changing tiles is the main tactic for wresting control of a word.  By
-changing enough tiles from your opponent's color to you color, you can
-gain control of your opponent's word.  A letter-for-letter swap is
-quite common, but a letter can be replaced with a different letter so
-long as the word and any crossing words remain valid dictionary words.
+changing enough tiles from your opponent's color to your color, you
+can gain control of your opponent's word.  A same-letter swap is most
+common, but a letter can be replaced with a different letter so long
+as the word and any crossing words remain valid dictionary words.
 
 In this example, white has changed a black "R" to a white "R":
 
@@ -216,7 +226,7 @@ example, black has added a "Y" to the "grocer":
 Several letters can be appended as part of the same play, as in the
 example of "paperback" above, so long as the number of tiles on the
 rule card is observed and the word is allowable once all tiles are
-played.
+placed.
 
 * TODO Replacing a hand
 :PROPERTIES:
@@ -224,11 +234,12 @@ played.
 :END:
 
 At the beginning of you turn, you can opt to return your hand of tiles
-to your bag and redraw to 2 less than the current hand.  So, draw back
-to 7 in a round with 9 tiles, to 5 in a round with 7, or to 3 in a
-round with 5.  Take one *penalty token*, then proceed with your turn.
+to your bag.  Return the tiles, shake the bag to mix the tiles, then
+redraw to 2 less than the current hand.  So, draw back to 7 in a round
+with 9 tiles, to 5 in a round with 7, or to 3 in a round with 5.  Take
+one {{{color(blue,penalty tokens)}}}, then proceed with your turn.
 You may redraw as many times as you like, but each subsequent draw
-costs two *penalty tokens*.
+costs two {{{color(blue,penalty tokens)}}}.
 
 * Challenging a word
 :PROPERTIES:
@@ -239,9 +250,9 @@ Any word played in phase 1 or phase 2 can be challenged.  The
 challenge is resolved using a dictionary agreeable to all players.  If
 the challenged word is allowable, play continues.  If the challenged
 word is not allowable, the player who played the word must withdraw
-the tiles played (resetting any changed tiles) and take one *penalty
-token*.  That player does not loose a turn and may make a different
-play immediately.
+the tiles played (resetting any changed tiles) and take one
+{{{color(blue,penalty tokens)}}}.  That player does not loose a turn
+and may make a different play immediately.
 
 * Removal cards
 :PROPERTIES:
@@ -270,8 +281,8 @@ The tiles removed are then used in the manner of phase 2 of a normal
 turn.  They can be used to change other tiles or append to other
 words.
 
-For each tile cannot be used elsewhere on the board, take a *penalty
-token* for each unused tile.
+For each tile cannot be used elsewhere on the board, take a
+{{{color(blue,penalty tokens)}}} for each unused tile.
 
 * Scoring words
 :PROPERTIES:
@@ -283,7 +294,7 @@ Words are scored at the end of the game.
  * The player with the most tiles (simple plurality) in a word wins
    that word.  Some examples: A five letter word requires that three
    letters be of one color in order to claim that word.  Here, white
-   controls the word and receives /[3|5]/ points:
+   controls the word and receives {{{hl([3|5])}}} points:
 
    #+ATTR_HTML: :width 50%
    #+ATTR_LATEX: :width 8cm
@@ -291,7 +302,7 @@ Words are scored at the end of the game.
 
    A seven letter word can be claimed by black if three tiles are
    black, two are white, and two have remained blue.  Here, black
-   controls the word and receives /[8|14]/ points:
+   controls the word and receives {{{hl([8|14])}}} points:
 
    #+ATTR_HTML: :width 70%
    #+ATTR_LATEX: :width 8cm
@@ -310,8 +321,8 @@ Long words are rewarded.  Use the chart below for scoring.
 :CUSTOM_ID: Scoring_chart
 :END:
 
-Scoring is a work in progress.  The two tracks are possible scoring
-schemes.
+{{{hl(Scoring is a work in progress.)}}}  These two tracks are scoring
+schemes being considered.
 
 | word length | Fibonacci track | Geometric track |
 |-------------+-----------------+-----------------|
@@ -336,13 +347,13 @@ controlling that word.
 :CUSTOM_ID: End_of_game
 :END:
 
-The game ends when the last rule card is played.  Score each word on
-the board according the rules above.
+The game ends when the last card in the rules pile is played.  Score
+each word on the board according the rules above.
 
-Each *penalty token* counts for -3 points.
+Each {{{color(blue,penalty tokens)}}} counts for -3 points.
 
 Highest score wins.  Most words controlled is the first tie-breaker.
-Fewest penalty token is second tie-breaker.
+Fewest {{{color(blue,penalty tokens)}}} is second tie-breaker.
 
 #+BEGIN_LaTeX
 \newpage

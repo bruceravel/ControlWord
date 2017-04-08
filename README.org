@@ -17,9 +17,18 @@ player interaction.
      uses [[https://inkscape.org][Inkscape]], [[https://github.com/fniessen/orgmk][orgmk]], and pdflatex to make printable PDF files
      used in the game.
 
+To make the game, print 2 copies of [[1word.svg]], and one copy each of
+[[0words.svg]], [[2words.svg]], and [[remove.svg]].  Cut out the cards.  Use the
+four sheets of word cards to make the main rules deck.  These will be
+shuffled together and dealt to make the rules deck.  The cards from
+[[remove.svg]] are used to make the small deck of removal cards, which is
+shuffled before selecting one removal card to add to the rules deck.
+
 To play the game, you will also need at least three different colors
 of latter tiles, for example [[https://www.amazon.com/s?ie=UTF8&field-keywords=scrabble%20tiles][here are some possible choices]].
 
+The game can be played on any flat surface which is large enough to
+hold about 20 side-by-side tiles in both directions.
 
 
 [[file:images/88x31.png]]
