@@ -237,7 +237,7 @@ At the beginning of you turn, you can opt to return your hand of tiles
 to your bag.  Return the tiles, shake the bag to mix the tiles, then
 redraw to 2 less than the current hand.  So, draw back to 7 in a round
 with 9 tiles, to 5 in a round with 7, or to 3 in a round with 5.  Take
-one {{{color(blue,penalty tokens)}}}, then proceed with your turn.
+one {{{color(blue,penalty token)}}}, then proceed with your turn.
 You may redraw as many times as you like, but each subsequent draw
 costs two {{{color(blue,penalty tokens)}}}.
 
@@ -251,7 +251,7 @@ challenge is resolved using a dictionary agreeable to all players.  If
 the challenged word is allowable, play continues.  If the challenged
 word is not allowable, the player who played the word must withdraw
 the tiles played (resetting any changed tiles) and take one
-{{{color(blue,penalty tokens)}}}.  That player does not loose a turn
+{{{color(blue,penalty token)}}}.  That player does not loose a turn
 and may make a different play immediately.
 
 * Removal cards
@@ -282,7 +282,7 @@ turn.  They can be used to change other tiles or append to other
 words.
 
 For each tile cannot be used elsewhere on the board, take a
-{{{color(blue,penalty tokens)}}} for each unused tile.
+{{{color(blue,penalty token)}}} for each unused tile.
 
 * Scoring words
 :PROPERTIES:
@@ -350,7 +350,7 @@ controlling that word.
 The game ends when the last card in the rules pile is played.  Score
 each word on the board according the rules above.
 
-Each {{{color(blue,penalty tokens)}}} counts for -3 points.
+Each {{{color(blue,penalty token)}}} counts for -3 points.
 
 Highest score wins.  Most words controlled is the first tie-breaker.
 Fewest {{{color(blue,penalty tokens)}}} is second tie-breaker.
