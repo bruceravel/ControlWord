@@ -168,7 +168,7 @@ Appending "back" to "paper", as in
 [[file:images/paperback.jpg]]
 
 is not a legal first phase play.  This is different from that other
-popular crossword game.  Note, however, that this would be an
+popular crossword game.  Note, however, that this might be an
 excellent play in the second phase.
 
 * Phase 2: Change/append tiles
@@ -209,14 +209,18 @@ another color.
 When changing a tile, discard the tile being removed from the board.
 Do not put it back in its bag.
 
+Blue tiles can be changed.  Doing so can allow a player to seize
+control of a blue word!
+
 ** Appending
 :PROPERTIES:
 :CUSTOM_ID: Appending
 :END:
 
 In the second phase, you can also append tiles to existing words, for
-example to make make a plural or to add a verb conjugation.  In this
-example, black has added a "Y" to the "grocer":
+example to make make a plural, to add a verb conjugation, or some
+other modification to the front or back of the word.  In this example,
+black has added a "Y" to the "grocer":
 
 #+ATTR_HTML: :width 60%
 #+ATTR_LATEX: :width 8cm
@@ -233,13 +237,16 @@ placed.
 :CUSTOM_ID: Replacing
 :END:
 
-At the beginning of you turn, you can opt to return your hand of tiles
-to your bag.  Return the tiles, shake the bag to mix the tiles, then
-redraw to 2 less than the current hand.  So, draw back to 7 in a round
-with 9 tiles, to 5 in a round with 7, or to 3 in a round with 5.  Take
-one {{{color(blue,penalty token)}}}, then proceed with your turn.
-You may redraw as many times as you like, but each subsequent draw
-costs two {{{color(blue,penalty tokens)}}}.
+At the beginning of your turn, you can opt to return your hand of
+tiles to your bag.  Return the tiles, shake the bag to mix the tiles,
+then redraw to 2 less than the current hand, then proceed with your
+turn.  So, draw back to 7 in a round with 9 tiles, to 5 in a round
+with 7, or to 3 in a round with 5.  You may redraw as many times as
+you like to that same number of tiles, but each subsequent draw costs
+one {{{color(blue,penalty tokens)}}}.
+
+{{{color(gray, Possibility: discard -- rather than return to bag --
+for one or two penalty tiles.)}}}
 
 * Challenging a word
 :PROPERTIES:
@@ -264,8 +271,9 @@ card.
 
 When this happens, each player (in the turn order determined from the
 previous rule card) will choose a word on the board and remove all
-tiles that are not part of a crossing word.  The word can be one that
-is controlled by any player, including the person doing the removal.
+tiles that are *not* part of a crossing word.  The word can be one
+that is controlled by any player, including the person doing the
+removal.
 
 For example, the word "great" can be removed by taking the "R", "E",
 and "T" tiles:
@@ -350,7 +358,7 @@ controlling that word.
 The game ends when the last card in the rules pile is played.  Score
 each word on the board according the rules above.
 
-Each {{{color(blue,penalty token)}}} counts for -3 points.
+Each {{{color(blue,penalty token)}}} counts for -5 points.
 
 Highest score wins.  Most words controlled is the first tie-breaker.
 Fewest {{{color(blue,penalty tokens)}}} is second tie-breaker.

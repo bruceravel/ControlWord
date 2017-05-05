@@ -26,13 +26,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.76"
-     inkscape:cx="406.34706"
+     inkscape:cx="481.44104"
      inkscape:cy="504.04333"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="721"
+     inkscape:window-width="1280"
+     inkscape:window-height="977"
      inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="1"
@@ -54,1124 +54,395 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-62.362205)">
+    <rect
+       style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136-8-0"
+       width="226.77165"
+       height="311.81104"
+       x="269.76328"
+       y="90.272423"
+       ry="13.4783" />
+    <rect
+       style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136-8-3"
+       width="226.77165"
+       height="311.81104"
+       x="39.500099"
+       y="90.272423"
+       ry="13.4783" />
     <g
-       id="g4217"
-       transform="translate(-8.6842105,-58.684259)">
+       id="g4438"
+       transform="translate(1.5258789e-5,67.980225)">
       <g
-         transform="translate(395.00881,-348.81581)"
-         id="g4685">
-        <g
-           id="g4155-9"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1"
-           inkscape:connector-curvature="0" />
+         transform="translate(-349.31567,5.01547)"
+         id="g4155-9-3">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54"
+           x="466.77734"
+           y="172.40561"
+           id="text4151-4-65"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan4452-7"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4">9 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1">Reroll turn order</tspan></text>
+             id="tspan4153-7-6"
+             x="466.77734"
+             y="172.40561"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">THEN</tspan></text>
       </g>
-      <g
-         id="g4685-2"
-         transform="translate(164.74566,-348.81581)">
-        <g
-           id="g4155-9-2"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-6"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-1"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-0"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-6"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-1">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-5"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-9"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-4"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-9"
-           inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-0"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-7-9"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-1"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-7"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-7">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-1"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-15"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-9">9 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-7"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-76">Reverse turn order</tspan></text>
-      </g>
-      <g
-         id="g4685-7"
-         transform="translate(-65.517509,-348.81581)">
-        <g
-           id="g4155-9-3"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-65"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-6"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-3"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-9"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-4">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-8"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-1"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-2"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-93"
-           inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-90"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-7-8"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-5"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-0">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-9"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-6"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-3">9 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-5">Preserve turn order</tspan></text>
-      </g>
+      <rect
+         style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4149-4-9"
+         width="155.26315"
+         height="31.578947"
+         x="75.254333"
+         y="153.43028"
+         ry="13.4783" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="87.346985"
+       y="164.73381"
+       id="text4450-54-90"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-7-8"
+         x="87.346985"
+         y="164.73381"
+         style="font-size:22.5px">Play 1 word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="152.80353"
+       y="316.27319"
+       id="text4450-0-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-78-5"
+         x="152.80353"
+         y="316.27319"
+         style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
+         sodipodi:role="line"
+         x="152.80353"
+         y="344.39819"
+         style="font-size:22.5px;text-align:center;text-anchor:middle"
+         id="tspan4514-6-0">2 tiles</tspan></text>
     <g
-       transform="translate(-8.6842105,256.22367)"
-       id="g4217-3">
+       id="g4438-3"
+       transform="translate(230.26319,67.980238)">
       <g
-         transform="translate(395.00881,-348.81581)"
-         id="g4685-6">
-        <g
-           id="g4155-9-7"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-5"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-3"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-5"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-62"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-91">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-27"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-0"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-9"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-3"
-           inkscape:connector-curvature="0" />
+         transform="translate(-349.31567,5.01547)"
+         id="g4155-9-3-6">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-6"
+           x="466.77734"
+           y="172.40561"
+           id="text4151-4-65-7"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan4452-7-0"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-6"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-2"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-6">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-18"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-7"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-92">7 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-0"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-2">Reroll turn order</tspan></text>
+             id="tspan4153-7-6-5"
+             x="466.77734"
+             y="172.40561"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">THEN</tspan></text>
       </g>
-      <g
-         id="g4685-2-3"
-         transform="translate(164.74566,-348.81581)">
-        <g
-           id="g4155-9-2-7"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-6-5"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-1-9"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-0-2"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-6-2"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-1-8">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-5-9"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-9-7"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-4-3"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-9-6"
-           inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-0-1"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-7-9-2"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-1-9"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-7-3"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-7-1">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-1-9"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-15-4"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-9-7">7 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-7-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-76-4">Reverse turn order</tspan></text>
-      </g>
-      <g
-         id="g4685-7-5"
-         transform="translate(-65.517509,-348.81581)">
-        <g
-           id="g4155-9-3-0"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-65-3"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-6-6"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-3-1"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-9-0"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-4-6">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-8-3"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-1-2"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-2-0"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-93-6"
-           inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-90-1"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-7-8-5"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-8-5"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-5-4"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-0-7">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-9-6"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-6-5"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-3-6">7 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-8-9"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-5-3">Preserve turn order</tspan></text>
-      </g>
+      <rect
+         style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4149-4-9-3"
+         width="155.26315"
+         height="31.578947"
+         x="75.254333"
+         y="153.43028"
+         ry="13.4783" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="317.61017"
+       y="164.73383"
+       id="text4450-54-90-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-7-8-6"
+         x="317.61017"
+         y="164.73383"
+         style="font-size:22.5px">Play 1 word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="383.06671"
+       y="316.27319"
+       id="text4450-0-8-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-78-5-9"
+         x="383.06671"
+         y="316.27319"
+         style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
+         sodipodi:role="line"
+         x="383.06671"
+         y="344.39819"
+         style="font-size:22.5px;text-align:center;text-anchor:middle"
+         id="tspan4514-6-0-1">3 tiles</tspan></text>
+    <rect
+       style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136-8-0-27"
+       width="226.77165"
+       height="311.81104"
+       x="500.12543"
+       y="90.050667"
+       ry="13.4783" />
     <g
-       transform="translate(-8.6842105,571.13158)"
-       id="g4217-7">
+       id="g4438-3-9"
+       transform="translate(460.62534,67.758487)">
       <g
-         transform="translate(395.00881,-348.81581)"
-         id="g4685-45">
-        <g
-           id="g4155-9-25"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-4"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-7"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-4"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-4"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-3">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-0"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-7"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-8"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-6"
-           inkscape:connector-curvature="0" />
+         transform="translate(-349.31567,5.01547)"
+         id="g4155-9-3-6-3">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-8"
+           x="466.77734"
+           y="172.40561"
+           id="text4151-4-65-7-6"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan4452-7-84"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-3"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-1"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-4">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-92"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-0"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-6">5 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-89"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-26">Reroll turn order</tspan></text>
+             id="tspan4153-7-6-5-0"
+             x="466.77734"
+             y="172.40561"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">THEN</tspan></text>
       </g>
-      <g
-         id="g4685-2-6"
-         transform="translate(164.74566,-348.81581)">
-        <g
-           id="g4155-9-2-4"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-6-9"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-1-5"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-0-0"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-6-4"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-1-87">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-5-1"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-9-72"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-4-7"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-9-2"
-           inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-0-2"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-7-9-6"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-1-1"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-7-0"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-7-6">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-1-1"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-15-5"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-9-9">5 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-7-4"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-76-9">Reverse turn order</tspan></text>
-      </g>
-      <g
-         id="g4685-7-0"
-         transform="translate(-65.517509,-348.81581)">
-        <g
-           id="g4155-9-3-9"
-           transform="translate(-275.11395,412.51554)">
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-4-65-1"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-7-6-7"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <rect
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect4136-8-3-7"
-           width="226.77165"
-           height="311.81104"
-           x="113.70182"
-           y="497.77249"
-           ry="13.4783" />
-        <rect
-           ry="13.4783"
-           y="560.93036"
-           x="149.45605"
-           height="31.578947"
-           width="155.26315"
-           id="rect4149-4-9-1"
-           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <g
-           transform="translate(-272.91233,506.04185)"
-           id="g4155-3-5-4-1">
-          <rect
-             ry="13.4783"
-             y="148.41484"
-             x="422.36841"
-             height="31.578947"
-             width="155.26315"
-             id="rect4149-6-0-8-5"
-             style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text4151-7-3-1-9"
-             y="172.40561"
-             x="466.77734"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'"
-               y="172.40561"
-               x="466.77734"
-               id="tspan4153-5-6-2-7"
-               sodipodi:role="line">THEN</tspan></text>
-        </g>
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 138.27186,750.45669 177.63158,0"
-           id="path4184-1-93-7"
-           inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="152.08553"
-           y="536.25366"
-           id="text4450-54-90-6"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-7-8-7"
-             x="152.08553"
-             y="536.25366"
-             style="font-size:22.5px">Play 1 word</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="227.02287"
-           y="617.79303"
-           id="text4450-0-8-3"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-78-5-6"
-             x="227.02287"
-             y="617.79303"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
-             sodipodi:role="line"
-             x="227.02287"
-             y="645.91803"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-6-0-5">3 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.50562"
-           y="713.10883"
-           id="text4450-8-9-63"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4452-8-6-9"
-             x="226.50562"
-             y="713.10883"
-             style="font-size:22.5px;text-align:center;text-anchor:middle">Draw/discard to</tspan><tspan
-             sodipodi:role="line"
-             x="226.50562"
-             y="741.23383"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-4-3-4">5 tiles</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.64371"
-           y="787.06604"
-           id="text4450-3-8-8"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="226.64371"
-             y="787.06604"
-             style="font-size:22.5px;text-align:center;text-anchor:middle"
-             id="tspan4514-1-5-1">Preserve turn order</tspan></text>
-      </g>
+      <rect
+         style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4149-4-9-3-6"
+         width="155.26315"
+         height="31.578947"
+         x="75.254333"
+         y="153.43028"
+         ry="13.4783" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="547.97229"
+       y="164.51207"
+       id="text4450-54-90-5-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-7-8-6-6"
+         x="547.97229"
+         y="164.51207"
+         style="font-size:22.5px">Play 1 word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="613.42883"
+       y="316.05142"
+       id="text4450-0-8-2-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-78-5-9-8"
+         x="613.42883"
+         y="316.05142"
+         style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
+         sodipodi:role="line"
+         x="613.42883"
+         y="344.17642"
+         style="font-size:22.5px;text-align:center;text-anchor:middle"
+         id="tspan4514-6-0-1-7">4 tiles</tspan></text>
+    <rect
+       style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136-8-0-2"
+       width="226.77165"
+       height="311.81104"
+       x="270.07291"
+       y="404.46231"
+       ry="13.4783" />
+    <rect
+       style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136-8-3-0"
+       width="226.77165"
+       height="311.81104"
+       x="39.809742"
+       y="404.46231"
+       ry="13.4783" />
+    <g
+       id="g4438-37"
+       transform="translate(0.30965805,395.42022)">
+      <g
+         transform="translate(-349.31567,5.01547)"
+         id="g4155-9-3-5">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="466.77734"
+           y="172.40561"
+           id="text4151-4-65-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4153-7-6-2"
+             x="466.77734"
+             y="172.40561"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">THEN</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4149-4-9-2"
+         width="155.26315"
+         height="31.578947"
+         x="75.254333"
+         y="153.43028"
+         ry="13.4783" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="87.656631"
+       y="644.17383"
+       id="text4450-54-90-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-7-8-9"
+         x="87.656631"
+         y="644.17383"
+         style="font-size:22.5px">Play 1 word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="153.11317"
+       y="488.97638"
+       id="text4450-0-8-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-78-5-3"
+         x="153.11317"
+         y="488.97638"
+         style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
+         sodipodi:role="line"
+         x="153.11317"
+         y="517.10138"
+         style="font-size:22.5px;text-align:center;text-anchor:middle"
+         id="tspan4514-6-0-6">2 tiles</tspan></text>
+    <rect
+       style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136-8-0-27-0"
+       width="226.77165"
+       height="311.81104"
+       x="500.43506"
+       y="404.24054"
+       ry="13.4783" />
+    <g
+       id="g4438-37-4"
+       transform="translate(230.57282,395.42022)">
+      <g
+         transform="translate(-349.31567,5.01547)"
+         id="g4155-9-3-5-7">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="466.77734"
+           y="172.40561"
+           id="text4151-4-65-9-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4153-7-6-2-5"
+             x="466.77734"
+             y="172.40561"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">THEN</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4149-4-9-2-6"
+         width="155.26315"
+         height="31.578947"
+         x="75.254333"
+         y="153.43028"
+         ry="13.4783" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="317.9198"
+       y="644.17383"
+       id="text4450-54-90-8-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-7-8-9-3"
+         x="317.9198"
+         y="644.17383"
+         style="font-size:22.5px">Play 1 word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="383.37634"
+       y="488.97638"
+       id="text4450-0-8-7-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-78-5-3-4"
+         x="383.37634"
+         y="488.97638"
+         style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
+         sodipodi:role="line"
+         x="383.37634"
+         y="517.10138"
+         style="font-size:22.5px;text-align:center;text-anchor:middle"
+         id="tspan4514-6-0-6-5">3 tiles</tspan></text>
+    <g
+       id="g4438-37-4-5"
+       transform="translate(460.93497,395.19845)">
+      <g
+         transform="translate(-349.31567,5.01547)"
+         id="g4155-9-3-5-7-4">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="466.77734"
+           y="172.40561"
+           id="text4151-4-65-9-6-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4153-7-6-2-5-4"
+             x="466.77734"
+             y="172.40561"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">THEN</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.95;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4149-4-9-2-6-4"
+         width="155.26315"
+         height="31.578947"
+         x="75.254333"
+         y="153.43028"
+         ry="13.4783" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="548.28192"
+       y="643.95209"
+       id="text4450-54-90-8-9-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-7-8-9-3-0"
+         x="548.28192"
+         y="643.95209"
+         style="font-size:22.5px">Play 1 word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="613.73846"
+       y="488.75461"
+       id="text4450-0-8-7-7-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452-78-5-3-4-8"
+         x="613.73846"
+         y="488.75461"
+         style="font-size:22.5px;text-align:center;text-anchor:middle">Replace/append</tspan><tspan
+         sodipodi:role="line"
+         x="613.73846"
+         y="516.87964"
+         style="font-size:22.5px;text-align:center;text-anchor:middle"
+         id="tspan4514-6-0-6-5-6">4 tiles</tspan></text>
   </g>
 </svg>
