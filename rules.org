@@ -22,6 +22,11 @@ replace your opponent's tiles, possibly allowing you to wrest away
 control of that word.  From round to round, turn order will vary, as
 will the number of tiles you can draw into your hand.
 
+ + Starting play mats with printed blue tiles
+ + bags of blue tiles, when/how to use, cost
+ + rules market: take one, discard oldest, replenish
+ + draw up to d6+5 tiles
+
 
 * Setup
 :PROPERTIES:
