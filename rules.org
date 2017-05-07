@@ -22,29 +22,11 @@ replace your opponent's tiles, possibly allowing you to wrest away
 control of that word.  From round to round, turn order will vary, as
 will the number of tiles you can draw into your hand.
 
- + Starting play mats with printed blue tiles
- + bags of blue tiles, when/how to use, cost
- + rules market: take one, discard oldest, replenish
- + draw up to d6+5 tiles
-
 
 * Setup
 :PROPERTIES:
 :CUSTOM_ID: Setup
 :END:
-
-
-1. Decide how many rounds to play.  10 is a good choice for your first
-   game.
-2. Shuffle the rules deck and select 1 fewer rule cards than the
-   number of rounds.  E.g. for a 10-round game, select 9 rule cards.
-3. Shuffle the removal deck and place one removal card in the second
-   half of the rules pile.  For a 10-round game, the removal card
-   should be placed somewhere after the fifth card.
-4. Roll to determine who plays first.  Throughout the opening round
-   and in the first scoring round, play continues clockwise from the
-   starting player.
-5. Each player draws 10 blue tiles and chooses 7 to keep.
 
 The game is played on any flat surface which is large enough to hold
 about 20 side-by-side tiles in both directions.  The board from any
@@ -52,54 +34,94 @@ tile-laying word game can be used, but special spaces are ignored and
 words can extend beyond the grid on the board.  It's probably easiest
 to simply play right on the table.
 
-* Begin the game
-:PROPERTIES:
-:CUSTOM_ID: Begin
-:END:
+1. Select a starting play mat.  The starting play mats are the sheets
+   which depict four crossing words printed in blue.  Place this in
+   the center of the table.
 
-In turn order, play a word using the hand of blue tiles, then draw
-back up to 7 blue tiles.  Each player plays two words using the blue
-tiles.
+2. Place the rules market near the play mat, but with enough room to
+   play words around the starting play mat.
 
-Then, each player discards any remaining blue tiles back to the blue
-bag and draws 7 tiles in her or his chosen tile color.
+3. Shuffle the rules cards.  For a two player game, remove 8 cards.
+   For a three payer game, remove 4 cards.  Lay five out in the rules
+   market.  Stack the rest to the side of the market.
 
-The blue tiles will no longer be used to form words.  For the
-remainder of the game, the blue tiles are used as
-{{{color(blue,penalty tokens)}}}.
+4. Roll the 6-sided die and add 5 to the number you roll.  Place the
+   die in the corresponding box above the rules market.
 
-Finally, reveal the top rule card.
+5. Each played claims a color of tiles.  Draw a number of tiles equal
+   to the die roll plus 5 in your color.
+
+6. Place the bags of blue vowels and blue consonants within easy reach
+   of the play area.
+
+7. Assign the first player marker to one of the players.
+
+You are now ready to play.  The play area should look this this:
+
+#+ATTR_HTML: :width 50%
+#+ATTR_LATEX: :width 8cm
+[[file:images/setup.jpg]]
+
+
+A {{{color(blue,penalty token)}}} is a tile taken from the bag of blue
+consonants and kept beside a players rack for the remainder of the
+game.  At scoring, {{{color(blue,penalty tokens)}}} count against the
+score from words you control.
+
 
 * Playing the game
 :PROPERTIES:
 :CUSTOM_ID: Playing
 :END:
 
-Players play in turn order.  In the first round, use the same turn
-order as during the beginning, blue tile round.
+The first player chooses a rule card from the market.  This round will
+play according to the rules written on that card.  
 
-For each player, the round consists of three phases:
+The first player prepares for the next round by doing:
 
-- Phase 1 :: Play up to the number of words at the top of the rule
-     card.  In a round with 2 words, the player can choose to play 0
-     or 1 words.  In a round with 1 word, the player can choose not to
-     play a word.
-- Phase 2 :: Using tiles remaining after playing in phase 1, change or
-     append up to the specified number of tiles.  See the rules below
-     for changing or appending.  Fewer than the specified number of
-     tiles can be used in this phase with no penalty.
-- Phase 3 :: Draw up (or discard down) to the number of tiles
-     specified on the rule card.
+ 1. Discard the oldest rules card (the one in the #1 or #2 spot).
+    Slide all rules cards to the left.  Refill the rules market from
+    the stack of unused rules cards.
 
-Once each player has played, set the turn order for the next round
-according to the bottom text of the rule card and proceed to the next
-round.  Once all rule tiles have been played, the game ends and
-scoring is determined.
+ 2. Roll the 6-sided die, adds five and places it in the appropriate
+    spot.  During this round, after playing according to the rules
+    card, that person will draw tiles up to the number rolled plus
+    five.
 
-If the rule card says to reroll turn order, each player will role the
-die, rerolling to resolve ties.  Turn order in the next round may not
-be simply clockwise or counterclockwise.  You can use blue tiles to
-indicate and help remember turn order.
+In turn order, starting with the first player, play according to the
+rules stated on the rules card.  *First* do the action on the top of
+the card, *then* do the action on the bottom of the card.  At the end
+of each action, every word on the table *must* be an allowed word.
+
+Most rule cards direct the player to do two action, which must be
+played in the order indicated:
+
+- Word Phase :: Play up to the number of words indicated as crossing
+                words.  A "crossing word" is defined below.  In a
+                round specifying two words, you may play 0, 1, or 2
+                words on your turn.  In a round specifying 1 word, you
+                must skip directly to the tile replacement phase.  The
+                words may be of any length and you may any number of
+                the tiles in front of you.
+- Tile Replacement Phase :: Using tiles on your rack, replace tiles
+     that have been played by other players with tiles of your color.
+     In this way, you are working towards gaining control of words
+     that have already been played.  In this round, you may also use
+     your tiles to append a suffix or prefix to a word that has
+     already been played, with the caveats that the appended tiles may
+     not outnumber the tiles to be used in this phase and that the
+     resulting string is an allowed word.
+
+At the end of your turn, draw up to the number of tiles as determined
+by the die roll at the beginning of the round.
+
+Play passes to the *left*.
+
+Once everyone has played in this round, pass the first player marker
+to the *right* and begin the next round.
+
+The final round of the game begins when the last card is drawn from
+the stack of rules cards.
 
 * Rule cards
 :PROPERTIES:
@@ -131,9 +153,9 @@ the cards are instructions to preserve the current turn order, to
 reverse the current turn order, or to reroll for turn order.  That
 determines the order for the following round.
 
-* Phase 1: Playing a word
+* Word Phase
 :PROPERTIES:
-:CUSTOM_ID: Phase1
+:CUSTOM_ID: WordPhase
 :END:
 
 A word must be an English-language word.  Players should agree upon a
@@ -142,8 +164,8 @@ foreign-language words not adopted into English, acronyms, and
 abbreviations are not allowed.  In short, the rules for allowable
 words are the same as the popular word game that this game resembles.
 
-A word must be played as a crossing word.  Here "mundane" is
-played crossing "bones":
+A word played in this phase must be a crossing word.  Here "mundane"
+is played crossing "bones", using the "N" from the existing word:
 
 #+ATTR_HTML: :width 35%
 #+ATTR_LATEX: :width 8cm
@@ -172,18 +194,18 @@ Appending "back" to "paper", as in
 #+ATTR_LATEX: :width 8cm
 [[file:images/paperback.jpg]]
 
-is not a legal first phase play.  This is different from that other
-popular crossword game.  Note, however, that this might be an
-excellent play in the second phase.
+is not a legal play in the word phase.  This is different from that
+other popular crossword game.  Note, however, that this might be an
+excellent play in the tile replacement phase.
 
-* Phase 2: Change/append tiles
+* Tile Replacement Phase
 :PROPERTIES:
-:CUSTOM_ID: Phase2
+:CUSTOM_ID: TileReplacementPhase
 :END:
 
-In the second phase, individual tiles are used to replace tiles in a
-word in play.  Tiles can also be appended to the beginning or end of
-another word to make a new word.
+In the tile replacement phase, individual tiles are used to replace
+tiles in a word in play.  Tiles can also be appended to the beginning
+or end of another word to make a new word.
 
 This phase is used to take control of words from your opponent.
 
@@ -217,15 +239,19 @@ Do not put it back in its bag.
 Blue tiles can be changed.  Doing so can allow a player to seize
 control of a blue word!
 
+To replace words from the tableau on the starting play mat, simply
+place a tile in your color /on top of/ the corresponding letter on the
+starting play mat.
+
 ** Appending
 :PROPERTIES:
 :CUSTOM_ID: Appending
 :END:
 
-In the second phase, you can also append tiles to existing words, for
-example to make make a plural, to add a verb conjugation, or some
-other modification to the front or back of the word.  In this example,
-black has added a "Y" to the "grocer":
+In the tile replacement phase, you can also append tiles to existing
+words as prefix or suffix, for example to make make a plural or to add
+a verb conjugation.  In this example, black has added a "Y" to the
+"grocer":
 
 #+ATTR_HTML: :width 60%
 #+ATTR_LATEX: :width 8cm
@@ -237,21 +263,35 @@ example of "paperback" above, so long as the number of tiles on the
 rule card is observed and the word is allowable once all tiles are
 placed.
 
-* TODO Replacing a hand
+* Blue vowels and consonants
+
+At any time, as a free action, you may replace a tile from your rack
+with a tile from the bag of blue vowel or the bag of blue consonants.
+Simply return one of your tiles to your bag (it is *not* discarded)
+and draw a tile from one of the blue bags.  You may repeat this free
+action any number of times.
+
+Using the blue tiles in this way can help repair a rack lacking either
+vowels or consonants, allowing you to play a longer, more valuable
+word.  The drawback is that the word you play will have fewer tiles of
+your color, weakening your control over the word.
+
+The only way to remove a blue tile from your rack is to play it in a
+word.  You *may not* return a blue tile to its bag.
+
+* Replacing a hand
 :PROPERTIES:
 :CUSTOM_ID: Replacing
 :END:
 
-At the beginning of your turn, you can opt to return your hand of
-tiles to your bag.  Return the tiles, shake the bag to mix the tiles,
-then redraw to 2 less than the current hand, then proceed with your
-turn.  So, draw back to 7 in a round with 9 tiles, to 5 in a round
-with 7, or to 3 in a round with 5.  You may redraw as many times as
-you like to that same number of tiles, but each subsequent draw costs
-one {{{color(blue,penalty tokens)}}}.
+At the beginning of your turn, you can opt to return your entire hand
+of tiles to your bag.  Shake the bag to mix the tiles, redraw to 2
+less than the current hand, then proceed with your turn, then return
+your old tiles to the bag.  If you are still unsatisfied with your
+rack, you may redraw as many times as you like to that same number of
+tiles, but each subsequent draw costs two {{{color(blue,penalty
+tokens)}}}.
 
-{{{color(gray, Possibility: discard -- rather than return to bag --
-for one or two penalty tiles.)}}}
 
 * Challenging a word
 :PROPERTIES:
@@ -271,14 +311,12 @@ and may make a different play immediately.
 :CUSTOM_ID: Removal_Cards
 :END:
 
-In one of the later rounds, a removal card will be drawn as the rule
-card.  
-
-When this happens, each player (in the turn order determined from the
-previous rule card) will choose a word on the board and remove all
-tiles that are *not* part of a crossing word.  The word can be one
-that is controlled by any player, including the person doing the
-removal.
+There are /two/ removal cards in the game.  These work a bit
+differently from the rest of the rule cards.  When the first player
+selects a removal card as the rule for the round, each player will
+will choose a word on the board and remove all tiles from that word
+that are *not* part of a crossing word.  The word can be one that is
+controlled by any player, including the person doing the removal.
 
 For example, the word "great" can be removed by taking the "R", "E",
 and "T" tiles:
@@ -288,11 +326,11 @@ and "T" tiles:
 [[file:images/great.jpg]]
 
 This cannot be done in a way that splits the board, leaving two or
-more unconnected areas on the board.
+more unconnected areas on the table.
 
-The tiles removed are then used in the manner of phase 2 of a normal
-turn.  They can be used to change other tiles or append to other
-words.
+The tiles removed are then used in the manner of the tile replacement
+phase of a normal turn.  They can be used to change other tiles or
+append to other words.
 
 For each tile cannot be used elsewhere on the board, take a
 {{{color(blue,penalty token)}}} for each unused tile.
@@ -339,7 +377,7 @@ schemes being considered.
 
 | word length | Fibonacci track | Geometric track |
 |-------------+-----------------+-----------------|
-|           2 |               1 |               1 |
+|           2 |               0 |               0 |
 |           3 |               1 |               1 |
 |           4 |               2 |               2 |
 |           5 |               3 |               5 |
@@ -352,21 +390,31 @@ schemes being considered.
 |          12 |              89 |              54 |
 
 
-Each J, Q, X, or Z in a word scores a 3 point bonus for the player
-controlling that word.
+Each J, Q, X, or Z in a word scores a {{{hl(3 point)}}} bonus for the
+player controlling that word.
 
 * End of game
 :PROPERTIES:
 :CUSTOM_ID: End_of_game
 :END:
 
-The game ends when the last card in the rules pile is played.  Score
-each word on the board according the rules above.
+The last round begins when the final card is drawn from the reserve
+pile of rule cards.  Each player plays according to the rule
+chosen,then proceed to final scoring.
+
+Score each word on the board according the rules above.
 
 Each {{{color(blue,penalty token)}}} counts for -5 points.
 
 Highest score wins.  Most words controlled is the first tie-breaker.
 Fewest {{{color(blue,penalty tokens)}}} is second tie-breaker.
+
+Here's the end game at the end of the first play test of Control Word!
+
+#+ATTR_HTML: :width 70%
+#+ATTR_LATEX: :width 8cm
+[[file:images/first_playtest.jpg]]
+
 
 #+BEGIN_LaTeX
 \newpage
