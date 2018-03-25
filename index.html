@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Rules for Control Word</title>
+<!-- 2018-03-25 Sun 10:13 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Bruce Ravel" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Rules for Control Word</h1>
+<p>
+Control Word is a tile laying word game much like a popular crossword
+board game, but with elements of area control and direct player
+interaction.  Each player plays words using a different color of
+tiles.  Points are scored by having the most tiles of your color in a
+word at the end of the game.  Longer words score more points.  The
+player who controls the most words and scores the most points is the
+winner!
+</p>
+
+<p>
+In each round, each player will play a word formed from a rack of
+tiles.  Any tiles not used to play a word can be used to replace your
+opponent's tiles, possibly allowing you to wrest away control of that
+word.  
+</p>
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#Components">Components</a></li>
+<li><a href="#Setup">Setup</a></li>
+<li><a href="#Playing">Playing the game</a></li>
+<li><a href="#sec-4">Blue vowels and consonants</a></li>
+<li><a href="#Replacing">Replacing a hand</a></li>
+<li><a href="#Challenging">Challenging a word</a></li>
+<li><a href="#Scoring">Scoring words</a></li>
+<li><a href="#Scoring_chart">Scoring chart</a></li>
+<li><a href="#End_of_game">End of game</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-Components" class="outline-2">
+<h2 id="Components"><a id="sec-1" name="sec-1"></a>Components</h2>
+<div class="outline-text-2" id="text-Components">
+
+<ul class="org-ul">
+<li>Bags containing 98 letter tiles (i.e. a standard 100-letter tile set
+with the blank tiles removed) in four player colors (black, white,
+red, green) and one non-player color (blue).
+</li>
+
+<li>6 starting play mats, each containing four crossing words in blue.
+</li>
+
+<li>1 die with faces 6, 7, 7, 7, 8, 9.
+</li>
+
+<li>1 die with faces 2, 3, 3, 4, 4, 5.
+</li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-Setup" class="outline-2">
+<h2 id="Setup"><a id="sec-2" name="sec-2"></a>Setup</h2>
+<div class="outline-text-2" id="text-Setup">
+
+<p>
+The game is played on any flat surface which is large enough to hold
+about 20 side-by-side tiles in both directions.  The board from any
+tile-laying word game can be used, but special spaces are ignored and
+words can extend beyond the grid on the board.  It's probably easiest
+to simply play right on the table.
+</p>
+
+<ol class="org-ol">
+<li>Select a starting play mat.  The starting play mats are the sheets
+which depict four crossing words printed in blue.  Place this in
+the center of the table.
+</li>
+
+<li>Roll the 6-sided die.  Each player will draw a number of tiles
+equal to the number rolled.
+</li>
+
+<li>Each player claims a color of tiles.  Draw a number of tiles equal
+to the die roll.
+</li>
+
+<li>Place the bags of blue vowels and blue consonants within easy reach
+of the play area.
+</li>
+
+<li>Each player draws a tile from the bag.  The lowest (closest to A)
+letter is the first player.  Return these tiles to the bag and give
+the first player token to the first player.
+</li>
+</ol>
+
+
+<p>
+<span style="background-color: yellow;">How many rounds?</span>  Maybe make a round counter mat.  Move the
+draw die forward each round&#x2026;.
+</p>
+
+
+<p>
+You are now ready to play.  The play area should look like this:
+</p>
+
+
+<div class="figure">
+<p><img src="images/setup.jpg" alt="setup.jpg" width="50%" />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1">Vocabulary</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>A <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty token&thinsp;</span> is a tile taken from the bag of
+blue consonants and kept face down beside a players rack for the
+remainder of the game.  At scoring, <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty tokens&thinsp;</span>
+count against the score from words you control.
+</li>
+
+<li>A play mat shows the starting words for the game.  At the beginning
+of the game, the starting words are completely controlled by the
+blue non-player.  Control of these blue words can be seized during
+the replacement phase. 
+</li>
+
+<li><b>Plurality control</b> of a word: having the most tiles in a word of your
+color while having less than 50% of the letters.  For example, green
+has plurality of a 7 letter word when 3 letters are red, 2 letters
+are black, and two letters are green, e.g.:
+
+
+<div class="figure">
+<p><img src="images/bananas.png" alt="bananas.png" width="70%" />
+</p>
+</div>
+</li>
+</ul>
+
+<ul class="org-ul">
+<li><b>Majority control</b> of a word: having more than 50% of the tiles in a
+word in your color.  For example, green has majority control of a
+7 letter word when 4 of the tiles are green, e.g.:
+
+
+<div class="figure">
+<p><img src="images/against.png" alt="against.png" width="70%" />
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-Playing" class="outline-2">
+<h2 id="Playing"><a id="sec-3" name="sec-3"></a>Playing the game</h2>
+<div class="outline-text-2" id="text-Playing">
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1">Roll phase</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+The die is rolled.  The number that comes up is the number of tiles
+that each player will draw to at the end of the round.  <i>Set die on
+the round counter&#x2026;</i>
+</p>
+
+<p>
+<i><span style="background-color: yellow;">Roll a die to set how many letters can be used in the replacement phase?</span></i>
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2">Word phase</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Starting with the first player and proceeding to the left, each player
+plays a word using any number of tiles from the rack.
+</p>
+
+<p>
+A word must be an English-language word.  Players should agree upon a
+dictionary to use for resolving challenges.  Proper nouns,
+foreign-language words not adopted into English, acronyms, and
+abbreviations are not allowed.  In short, the rules for allowable
+words are the same as the popular word game that this game resembles.
+</p>
+
+<p>
+Word placement rules from that other crossword game apply.  New words
+are formed by 
+</p>
+
+<ul class="org-ul">
+<li>Adding one or more letters to a word or letters already on the
+board.
+</li>
+<li>Placing a word at right angles to a word already on the board. The
+new word must use one of the letters already on the board or must
+add a letter to it.
+</li>
+<li>Placing a complete word parallel to a word already played so that
+adjacent letters also form complete words.
+</li>
+</ul>
+
+<p>
+Note the scoring chart below.  Unlike other word games, each letter is
+of equal value.  Longer words score more points.  2 and 3 letter words
+score no points.  (2 and 3 letter words do score the bonus for the
+letters J, Q, X, and Z and can be controlled by a player for the
+purpose of the end-of-game tie-breaker.)
+</p>
+
+<p>
+A player may choose not to play a word, saving letters for the
+replacement phase.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3">Replacement phase</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+After the word phase, the starting player begins the replacement
+phase.  Passing to the left, all players take their replacement phase
+actions.
+</p>
+
+<p>
+<i><span style="background-color: yellow;">Start with the last player and pass to the right?</span></i>
+</p>
+
+<p>
+Using any remaining tiles from the rack, replace other tiles on the
+board.  These can be tiles in other player colors or any blue tiles &#x2013;
+including the spaces on the starting word mat.
+</p>
+
+<p>
+More than one tile in a word can be replaced in a turn, however all
+words must still be words at the end of each player's turn.
+</p>
+
+<p>
+The simplest replacement phase action is to replace a letter of a
+different color with the same letter of your color.  Replacing a
+letter with a different letter is allowed, but the newly formed word
+must be in the dictionary.  As an example "playing" can be changed to
+"praying" by replacing the "l" with an "r" of your color.
+</p>
+
+<p>
+Multiple letters can be replaced in the same word.  If one or more of
+those replacements are of different letters, the word must still be a
+word at the end of your turn.  For example, "repast" can be turned
+into "repent" by replacing "as" with "en" of your color.
+</p>
+
+<p>
+If the replaced tile is a crossing tile, i.e. it is part of two words
+which cross at that point, both words must be valid words after the
+replacement. 
+</p>
+
+<p>
+Replaced tiles are discarded (<b>not</b> returned to the bag).
+</p>
+
+<p>
+A player may choose not to act in the replacement phase,
+</p>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Blue vowels and consonants</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+At any time, as a free action, you may replace a tile from your rack
+with a tile from the bag of blue vowel or the bag of blue consonants.
+Simply return one of your tiles to your bag (it is <b>not</b> discarded)
+and draw a tile from one of the blue bags.  You may repeat this free
+action any number of times.
+</p>
+
+<p>
+Using the blue tiles in this way can help repair a rack lacking either
+vowels or consonants, allowing you to play a longer, more valuable
+word.  The drawback is that the word you play will have fewer tiles of
+your color, weakening your control over the word.
+</p>
+
+<p>
+The only way to remove a blue tile from your rack is to play it in a
+word.  You <b>may not</b> return a blue tile to its bag.
+</p>
+</div>
+</div>
+
+<div id="outline-container-Replacing" class="outline-2">
+<h2 id="Replacing"><a id="sec-5" name="sec-5"></a>Replacing a hand</h2>
+<div class="outline-text-2" id="text-Replacing">
+
+<p>
+At the beginning of your turn, you can opt to return your entire rack
+of tiles &#x2013; except for any blue tiles on your rack &#x2013; to your bag.
+Shake the bag to mix the tiles, redraw to 2 less than the current rack
+limit, then proceed with your turn.  If you are still unsatisfied with
+your rack, you may redraw as many times as you like to that same
+number of tiles, but each subsequent draw costs <span style="background-color: yellow;">one/two</span>
+<span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty tokens&thinsp;</span>.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-Challenging" class="outline-2">
+<h2 id="Challenging"><a id="sec-6" name="sec-6"></a>Challenging a word</h2>
+<div class="outline-text-2" id="text-Challenging">
+
+<p>
+Any word played in phase 1 or phase 2 can be challenged.  The
+challenge is resolved using a dictionary agreeable to all players.  If
+the challenged word is allowable, play continues.  If the challenged
+word is not allowable, the player who played the word must withdraw
+the tiles played (resetting any changed tiles) and take one
+<span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty token&thinsp;</span>.  That player does not loose a turn
+and may make a different play immediately.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-Scoring" class="outline-2">
+<h2 id="Scoring"><a id="sec-7" name="sec-7"></a>Scoring words</h2>
+<div class="outline-text-2" id="text-Scoring">
+
+<p>
+When a word is played, that player scores immediately based on the
+length of the word, as given in the table below.
+</p>
+
+<p>
+At the end of the game:
+</p>
+
+<ul class="org-ul">
+<li>The player with the most tiles (simple plurality) in a word wins
+that word.  Some examples: A five letter word requires that three
+letters be of one color in order to claim that word.  Here, white
+controls the word and receives <span style="background-color: yellow;">[3|5]</span> points:
+
+
+<div class="figure">
+<p><img src="images/grail.png" alt="grail.png" width="50%" />
+</p>
+</div>
+
+<p>
+A seven letter word can be claimed by black if three tiles are
+black, two are white, and two have remained blue.  Here, black
+controls the word by plurality and receives <span style="background-color: yellow;">14</span> points at
+game's end:
+</p>
+
+
+<div class="figure">
+<p><img src="images/mundane.png" alt="mundane.png" width="70%" />
+</p>
+</div>
+</li>
+</ul>
+
+
+<p>
+Here, black has claimed a fourth tile, thus black controls the word
+by majority and receives <span style="background-color: yellow;">21</span> points at game's end:
+</p>
+
+
+<div class="figure">
+<p><img src="images/mundane2.png" alt="mundane2.png" width="70%" />
+</p>
+</div>
+
+
+<ul class="org-ul">
+<li>Any word for which the blue tiles have plurality or majority
+control does not score for any player.
+</li>
+
+<li>Any word for for which two (or more) colors (including blue) are
+tied for the most tiles does not score for any player.
+</li>
+
+<li>Controlling 1/2 the letters of an even-length word counts as
+majority.  For example, with three tiles, green has majority
+control of this 6 letter word:
+
+
+<div class="figure">
+<p><img src="images/starts.png" alt="starts.png" width="70%" />
+</p>
+</div>
+</li>
+</ul>
+<p>
+Long words are rewarded.  Use the chart below for scoring.
+</p>
+</div>
+</div>
+
+<div id="outline-container-Scoring_chart" class="outline-2">
+<h2 id="Scoring_chart"><a id="sec-8" name="sec-8"></a>Scoring chart</h2>
+<div class="outline-text-2" id="text-Scoring_chart">
+
+<p>
+When a word is played it scores immediately according to the "When
+played" column.
+</p>
+
+<p>
+End game scoring depends upon whether a player controls a plurality or
+majority of letters in the word.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">word length</th>
+<th scope="col" class="right">When played</th>
+<th scope="col" class="right">End game plurality</th>
+<th scope="col" class="right">End game majority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">2</td>
+<td class="right">0</td>
+<td class="right">0</td>
+<td class="right">0</td>
+</tr>
+
+<tr>
+<td class="right">3</td>
+<td class="right">0</td>
+<td class="right">0</td>
+<td class="right">0</td>
+</tr>
+
+<tr>
+<td class="right">4</td>
+<td class="right">1</td>
+<td class="right">2</td>
+<td class="right">3</td>
+</tr>
+
+<tr>
+<td class="right">5</td>
+<td class="right">2</td>
+<td class="right">4</td>
+<td class="right">6</td>
+</tr>
+
+<tr>
+<td class="right">6</td>
+<td class="right">4</td>
+<td class="right">8</td>
+<td class="right">12</td>
+</tr>
+
+<tr>
+<td class="right">7</td>
+<td class="right">7</td>
+<td class="right">14</td>
+<td class="right">21</td>
+</tr>
+
+<tr>
+<td class="right">8</td>
+<td class="right">11</td>
+<td class="right">22</td>
+<td class="right">33</td>
+</tr>
+
+<tr>
+<td class="right">9</td>
+<td class="right">16</td>
+<td class="right">32</td>
+<td class="right">48</td>
+</tr>
+
+<tr>
+<td class="right">10</td>
+<td class="right">22</td>
+<td class="right">44</td>
+<td class="right">66</td>
+</tr>
+
+<tr>
+<td class="right">11</td>
+<td class="right">29</td>
+<td class="right">58</td>
+<td class="right">87</td>
+</tr>
+
+<tr>
+<td class="right">12</td>
+<td class="right">37</td>
+<td class="right">74</td>
+<td class="right">111</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+Formula: 
+</p>
+
+<p>
+Word length = 2 or 3 gets 0 points.  For word length 4+:
+</p>
+<ul class="org-ul">
+<li>n = word length
+</li>
+<li>x = n-3
+</li>
+<li>in-game score = (x^2 - x + 2) / 2
+</li>
+<li>plurality = in-game * 2
+</li>
+<li>majority  = in-game * 3
+</li>
+</ul>
+
+<p>
+Each J, Q, X, or Z in a word scores a <span style="background-color: yellow;">2 point</span> bonus for the
+player playing that word.  This bonus is scored even for 2 or 3 letter
+words (which would otherwise score 0 points).
+</p>
+</div>
+</div>
+
+<div id="outline-container-End_of_game" class="outline-2">
+<h2 id="End_of_game"><a id="sec-9" name="sec-9"></a>End of game</h2>
+<div class="outline-text-2" id="text-End_of_game">
+
+<p>
+The game ends after <span style="background-color: yellow;">How many rounds?</span>.
+</p>
+</div>
+
+<div id="outline-container-sec-9-1" class="outline-3">
+<h3 id="sec-9-1">Scoring</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li>Score each word on the board that has plurality or majority control
+according the table above
+</li>
+
+<li>Award <span style="background-color: yellow;">4 bonus point</span> bonus for each J, Q, X, or Z to the
+person controlling that word.
+</li>
+
+<li>Each <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty token&thinsp;</span> counts for <span style="background-color: yellow;">-5 points</span>.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9-2" class="outline-3">
+<h3 id="sec-9-2">Tie breaker</h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+Highest score wins.  Fewest <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty tokens&thinsp;</span> is the
+first tie-breaker.  Most words controlled is the second tie-breaker.
+</p>
+
+<p>
+Here's the end game at the end of the first play test of Control Word!
+</p>
+
+
+<div class="figure">
+<p><img src="images/first_playtest.jpg" alt="first_playtest.jpg" width="70%" />
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Bruce Ravel</p>
+<p class="date">Created: 2018-03-25 Sun 10:13</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
