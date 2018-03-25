@@ -3,7 +3,6 @@
 #+SETUPFILE: "~/dotfiles/org/BR-org.setup"
 #+SETUPFILE: theme-readtheorg-local.setup
 #+LaTeX_HEADER: \input{header.tex}
-#+OPTIONS: toc:nil
 
 #+BEGIN_LaTeX
 \LARGE
@@ -43,6 +42,17 @@ of tiles you can draw into your hand.
 
 - 1 die with faces 2, 3, 3, 4, 4, 5.
 
+To use normal 6-sided dice.  Use the following table to interpret the
+rolls of the draw die and the replacement limit die:
+
+| If you roll | use for the draw die | use for the replacement limit |
+|-------------+----------------------+-------------------------------|
+|           1 |                    6 |                            2  |
+|           2 |                    7 |                            3  |
+|           3 |                    7 |                            3  |
+|           4 |                    7 |                            4  |
+|           5 |                    8 |                            4  |
+|           6 |                    9 |                            5  |
 
 
 * Setup
@@ -100,37 +110,6 @@ You are now ready to play.  The play area should look like this:
 [[file:images/setup.jpg]]
 
 
-** Vocabulary
-
-- A {{{tile(blue,penalty token)}}} is a tile taken from the bag of
-  blue consonants and kept face down beside a players rack for the
-  remainder of the game.  At scoring, {{{tile(blue,penalty tokens)}}}
-  count against the score from words you control.
-
-- A play mat shows the starting words for the game.  At the beginning
-  of the game, the starting words are completely controlled by the
-  blue non-player.  Control of these blue words can be seized during
-  the replacement phase. 
-
-- *Plurality control* of a word: having the most tiles in a word of your
-  color while having less than 50% of the letters.  For example, green
-  has plurality of a 7 letter word when 3 letters are red, 2 letters
-  are black, and two letters are green, e.g.:
-
-   #+ATTR_HTML: :width 70%
-   #+ATTR_LATEX: :width 8cm
-   [[file:images/bananas.png]]
-
-#  {{{tile(green,B)}}}{{{tile(black,A)}}}{{{tile(green,N)}}}{{{tile(green,A)}}}{{{tile(black,N)}}}{{{tile(darkred,A)}}}{{{tile(darkred,S)}}}
-
-- *Majority control* of a word: having more than 50% of the tiles in a
-  word in your color.  For example, green has majority control of a
-  7 letter word when 4 of the tiles are green, e.g.:
-
-   #+ATTR_HTML: :width 70%
-   #+ATTR_LATEX: :width 8cm
-   [[file:images/against.png]]
-#  {{{tile(green,A)}}}{{{tile(blue,G)}}}{{{tile(green,A)}}}{{{tile(green,I)}}}{{{tile(black,N)}}}{{{tile(darkred,S)}}}{{{tile(green,T)}}}
 
 * Playing the game
 :PROPERTIES:
@@ -138,6 +117,9 @@ You are now ready to play.  The play area should look like this:
 :END:
 
 ** Roll phase
+:PROPERTIES:
+:CUSTOM_ID: rollphase
+:END:
 
 The die is rolled.  The number that comes up is the number of tiles
 that each player will draw to at the end of the round.  /Set die on
@@ -147,9 +129,15 @@ the round counter.../
 
 
 ** Word phase
+:PROPERTIES:
+:CUSTOM_ID: wordphase
+:END:
 
 Starting with the first player and proceeding to the left, each player
-plays a word using any number of tiles from the rack.
+plays a word using any number of tiles from the rack.  In the first
+round, the first word must be played crossing one of the words on the
+start mat.  All subsequent word phase plays can cross other played
+words or words on the start mat.
 
 A word must be an English-language word.  Players should agree upon a
 dictionary to use for resolving challenges.  Proper nouns,
@@ -179,6 +167,9 @@ replacement phase.
 
 
 ** Replacement phase
+:PROPERTIES:
+:CUSTOM_ID: replacementphase
+:END:
 
 
 After the word phase, the starting player begins the replacement
@@ -189,7 +180,9 @@ actions.
 
 Using any remaining tiles from the rack, replace other tiles on the
 board.  These can be tiles in other player colors or any blue tiles --
-including the spaces on the starting word mat.
+including the spaces on the starting word mat.  To replace a letter on
+the start mat, simply place a tile in your color on top of that letter
+on the mat.
 
 More than one tile in a word can be replaced in a turn, however all
 words must still be words at the end of each player's turn.
@@ -203,7 +196,7 @@ must be in the dictionary.  As an example "playing" can be changed to
 Multiple letters can be replaced in the same word.  If one or more of
 those replacements are of different letters, the word must still be a
 word at the end of your turn.  For example, "repast" can be turned
-into "repent" by replacing "as" with "en" of your color.
+into "repent" by replacing "as" with "en" in your color.
 
 If the replaced tile is a crossing tile, i.e. it is part of two words
 which cross at that point, both words must be valid words after the
@@ -211,11 +204,21 @@ replacement.
 
 Replaced tiles are discarded (*not* returned to the bag).
 
-A player may choose not to act in the replacement phase,
+A player may choose not to play in the replacement phase.
  
 
+** Draw phase
+:PROPERTIES:
+:CUSTOM_ID: drawphase
+:END:
 
-* Blue vowels and consonants
+After the replacement phase, each player draws back up to the rack
+limit determined in the roll phase.
+
+** Blue vowels and consonants
+:PROPERTIES:
+:CUSTOM_ID: bluetiles
+:END:
 
 At any time, as a free action, you may replace a tile from your rack
 with a tile from the bag of blue vowel or the bag of blue consonants.
@@ -231,7 +234,7 @@ your color, weakening your control over the word.
 The only way to remove a blue tile from your rack is to play it in a
 word.  You *may not* return a blue tile to its bag.
 
-* Replacing a hand
+** Replacing a hand
 :PROPERTIES:
 :CUSTOM_ID: Replacing
 :END:
@@ -245,7 +248,7 @@ number of tiles, but each subsequent draw costs {{{hl(one/two)}}}
 {{{tile(blue,penalty tokens)}}}.
 
 
-* Challenging a word
+** Challenging a word
 :PROPERTIES:
 :CUSTOM_ID: Challenging
 :END:
@@ -272,7 +275,7 @@ At the end of the game:
  * The player with the most tiles (simple plurality) in a word wins
    that word.  Some examples: A five letter word requires that three
    letters be of one color in order to claim that word.  Here, white
-   controls the word and receives {{{hl([3|5])}}} points:
+   controls the word and receives {{{hl(4 points)}}} at game's end:
 
    #+ATTR_HTML: :width 50%
    #+ATTR_LATEX: :width 8cm
@@ -280,7 +283,7 @@ At the end of the game:
 
    A seven letter word can be claimed by black if three tiles are
    black, two are white, and two have remained blue.  Here, black
-   controls the word by plurality and receives {{{hl(14)}}} points at
+   controls the word by plurality and receives {{{hl(14 points)}}} at
    game's end:
 
    #+ATTR_HTML: :width 70%
@@ -289,7 +292,7 @@ At the end of the game:
 
 
    Here, black has claimed a fourth tile, thus black controls the word
-   by majority and receives {{{hl(21)}}} points at game's end:
+   by majority and receives {{{hl(21 points)}}} at game's end:
 
    #+ATTR_HTML: :width 70%
    #+ATTR_LATEX: :width 8cm
@@ -313,7 +316,7 @@ At the end of the game:
 
 Long words are rewarded.  Use the chart below for scoring.
 
-* Scoring chart
+** Scoring chart
 :PROPERTIES:
 :CUSTOM_ID: Scoring_chart
 :END:
@@ -364,6 +367,9 @@ words (which would otherwise score 0 points).
 The game ends after {{{hl(How many rounds?)}}}.
 
 ** Scoring
+:PROPERTIES:
+:CUSTOM_ID: scoring
+:END:
 
 - Score each word on the board that has plurality or majority control
   according the table above
@@ -374,6 +380,9 @@ The game ends after {{{hl(How many rounds?)}}}.
 - Each {{{tile(blue,penalty token)}}} counts for {{{hl(-5 points)}}}.
 
 ** Tie breaker
+:PROPERTIES:
+:CUSTOM_ID: tie
+:END:
 
 Highest score wins.  Fewest {{{tile(blue,penalty tokens)}}} is the
 first tie-breaker.  Most words controlled is the second tie-breaker.
@@ -384,6 +393,40 @@ Here's the end game at the end of the first play test of Control Word!
 #+ATTR_LATEX: :width 8cm
 [[file:images/first_playtest.jpg]]
 
+* Glossary
+:PROPERTIES:
+:CUSTOM_ID: glossary
+:END:
+
+- A {{{tile(blue,penalty token)}}} is a tile taken from the bag of
+  blue consonants and kept face down beside a players rack for the
+  remainder of the game.  At scoring, {{{tile(blue,penalty tokens)}}}
+  count against the score from words you control.
+
+- A play mat shows the starting words for the game.  At the beginning
+  of the game, the starting words are completely controlled by the
+  blue non-player.  Control of these blue words can be seized during
+  the replacement phase. 
+
+- *Plurality control* of a word: having the most tiles in a word of your
+  color while having less than 50% of the letters.  For example, green
+  has plurality of a 7 letter word when 3 letters are red, 2 letters
+  are black, and two letters are green, e.g.:
+
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/bananas.png]]
+
+#  {{{tile(green,B)}}}{{{tile(black,A)}}}{{{tile(green,N)}}}{{{tile(green,A)}}}{{{tile(black,N)}}}{{{tile(darkred,A)}}}{{{tile(darkred,S)}}}
+
+- *Majority control* of a word: having more than 50% of the tiles in a
+  word in your color.  For example, green has majority control of a
+  7 letter word when 4 of the tiles are green, e.g.:
+
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/against.png]]
+#  {{{tile(green,A)}}}{{{tile(blue,G)}}}{{{tile(green,A)}}}{{{tile(green,I)}}}{{{tile(black,N)}}}{{{tile(darkred,S)}}}{{{tile(green,T)}}}
 
 #+BEGIN_LaTeX
 \newpage
