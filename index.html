@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Rules for Control Word</title>
-<!-- 2018-03-25 Sun 10:13 -->
+<!-- 2018-03-25 Sun 11:11 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Bruce Ravel" />
@@ -143,6 +143,38 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Rules for Control Word</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#Components">Components</a></li>
+<li><a href="#Setup">Setup</a></li>
+<li><a href="#Playing">Playing the game</a>
+<ul>
+<li><a href="#rollphase">Roll phase</a></li>
+<li><a href="#wordphase">Word phase</a></li>
+<li><a href="#replacementphase">Replacement phase</a></li>
+<li><a href="#drawphase">Draw phase</a></li>
+<li><a href="#bluetiles">Blue vowels and consonants</a></li>
+<li><a href="#Replacing">Replacing a hand</a></li>
+<li><a href="#Challenging">Challenging a word</a></li>
+</ul>
+</li>
+<li><a href="#Scoring">Scoring words</a>
+<ul>
+<li><a href="#Scoring_chart">Scoring chart</a></li>
+</ul>
+</li>
+<li><a href="#End_of_game">End of game</a>
+<ul>
+<li><a href="#scoring">Scoring</a></li>
+<li><a href="#tie">Tie breaker</a></li>
+</ul>
+</li>
+<li><a href="#glossary">Glossary</a></li>
+</ul>
+</div>
+</div>
 <p>
 Control Word is a tile laying word game much like a popular crossword
 board game, but with elements of area control and direct player
@@ -160,22 +192,6 @@ opponent's tiles, possibly allowing you to wrest away control of that
 word.  
 </p>
 
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#Components">Components</a></li>
-<li><a href="#Setup">Setup</a></li>
-<li><a href="#Playing">Playing the game</a></li>
-<li><a href="#sec-4">Blue vowels and consonants</a></li>
-<li><a href="#Replacing">Replacing a hand</a></li>
-<li><a href="#Challenging">Challenging a word</a></li>
-<li><a href="#Scoring">Scoring words</a></li>
-<li><a href="#Scoring_chart">Scoring chart</a></li>
-<li><a href="#End_of_game">End of game</a></li>
-</ul>
-</div>
-</div>
 
 <div id="outline-container-Components" class="outline-2">
 <h2 id="Components"><a id="sec-1" name="sec-1"></a>Components</h2>
@@ -196,9 +212,69 @@ red, green) and one non-player color (blue).
 <li>1 die with faces 2, 3, 3, 4, 4, 5.
 </li>
 </ul>
-</div>
-</div>
 
+<p>
+To use normal 6-sided dice.  Use the following table to interpret the
+rolls of the draw die and the replacement limit die:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">If you roll</th>
+<th scope="col" class="right">use for the draw die</th>
+<th scope="col" class="right">use for the replacement limit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">1</td>
+<td class="right">6</td>
+<td class="right">2</td>
+</tr>
+
+<tr>
+<td class="right">2</td>
+<td class="right">7</td>
+<td class="right">3</td>
+</tr>
+
+<tr>
+<td class="right">3</td>
+<td class="right">7</td>
+<td class="right">3</td>
+</tr>
+
+<tr>
+<td class="right">4</td>
+<td class="right">7</td>
+<td class="right">4</td>
+</tr>
+
+<tr>
+<td class="right">5</td>
+<td class="right">8</td>
+<td class="right">4</td>
+</tr>
+
+<tr>
+<td class="right">6</td>
+<td class="right">9</td>
+<td class="right">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 
 
 <div id="outline-container-Setup" class="outline-2">
@@ -254,61 +330,19 @@ You are now ready to play.  The play area should look like this:
 </p>
 </div>
 </div>
-
-
-<div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1">Vocabulary</h3>
-<div class="outline-text-3" id="text-2-1">
-<ul class="org-ul">
-<li>A <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty token&thinsp;</span> is a tile taken from the bag of
-blue consonants and kept face down beside a players rack for the
-remainder of the game.  At scoring, <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty tokens&thinsp;</span>
-count against the score from words you control.
-</li>
-
-<li>A play mat shows the starting words for the game.  At the beginning
-of the game, the starting words are completely controlled by the
-blue non-player.  Control of these blue words can be seized during
-the replacement phase. 
-</li>
-
-<li><b>Plurality control</b> of a word: having the most tiles in a word of your
-color while having less than 50% of the letters.  For example, green
-has plurality of a 7 letter word when 3 letters are red, 2 letters
-are black, and two letters are green, e.g.:
-
-
-<div class="figure">
-<p><img src="images/bananas.png" alt="bananas.png" width="70%" />
-</p>
 </div>
-</li>
-</ul>
-
-<ul class="org-ul">
-<li><b>Majority control</b> of a word: having more than 50% of the tiles in a
-word in your color.  For example, green has majority control of a
-7 letter word when 4 of the tiles are green, e.g.:
 
 
-<div class="figure">
-<p><img src="images/against.png" alt="against.png" width="70%" />
-</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
 
 <div id="outline-container-Playing" class="outline-2">
 <h2 id="Playing"><a id="sec-3" name="sec-3"></a>Playing the game</h2>
 <div class="outline-text-2" id="text-Playing">
 </div>
 
-<div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1">Roll phase</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-rollphase" class="outline-3">
+<h3 id="rollphase"><a id="sec-3-1" name="sec-3-1"></a>Roll phase</h3>
+<div class="outline-text-3" id="text-rollphase">
+
 <p>
 The die is rolled.  The number that comes up is the number of tiles
 that each player will draw to at the end of the round.  <i>Set die on
@@ -322,12 +356,16 @@ the round counter&#x2026;</i>
 </div>
 
 
-<div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2">Word phase</h3>
-<div class="outline-text-3" id="text-3-2">
+<div id="outline-container-wordphase" class="outline-3">
+<h3 id="wordphase"><a id="sec-3-2" name="sec-3-2"></a>Word phase</h3>
+<div class="outline-text-3" id="text-wordphase">
+
 <p>
 Starting with the first player and proceeding to the left, each player
-plays a word using any number of tiles from the rack.
+plays a word using any number of tiles from the rack.  In the first
+round, the first word must be played crossing one of the words on the
+start mat.  All subsequent word phase plays can cross other played
+words or words on the start mat.
 </p>
 
 <p>
@@ -372,9 +410,11 @@ replacement phase.
 </div>
 
 
-<div id="outline-container-sec-3-3" class="outline-3">
-<h3 id="sec-3-3">Replacement phase</h3>
-<div class="outline-text-3" id="text-3-3">
+<div id="outline-container-replacementphase" class="outline-3">
+<h3 id="replacementphase"><a id="sec-3-3" name="sec-3-3"></a>Replacement phase</h3>
+<div class="outline-text-3" id="text-replacementphase">
+
+
 <p>
 After the word phase, the starting player begins the replacement
 phase.  Passing to the left, all players take their replacement phase
@@ -388,7 +428,9 @@ actions.
 <p>
 Using any remaining tiles from the rack, replace other tiles on the
 board.  These can be tiles in other player colors or any blue tiles &#x2013;
-including the spaces on the starting word mat.
+including the spaces on the starting word mat.  To replace a letter on
+the start mat, simply place a tile in your color on top of that letter
+on the mat.
 </p>
 
 <p>
@@ -408,7 +450,7 @@ must be in the dictionary.  As an example "playing" can be changed to
 Multiple letters can be replaced in the same word.  If one or more of
 those replacements are of different letters, the word must still be a
 word at the end of your turn.  For example, "repast" can be turned
-into "repent" by replacing "as" with "en" of your color.
+into "repent" by replacing "as" with "en" in your color.
 </p>
 
 <p>
@@ -422,17 +464,27 @@ Replaced tiles are discarded (<b>not</b> returned to the bag).
 </p>
 
 <p>
-A player may choose not to act in the replacement phase,
+A player may choose not to play in the replacement phase.
 </p>
 </div>
 </div>
+
+
+<div id="outline-container-drawphase" class="outline-3">
+<h3 id="drawphase"><a id="sec-3-4" name="sec-3-4"></a>Draw phase</h3>
+<div class="outline-text-3" id="text-drawphase">
+
+<p>
+After the replacement phase, each player draws back up to the rack
+limit determined in the roll phase.
+</p>
+</div>
 </div>
 
+<div id="outline-container-bluetiles" class="outline-3">
+<h3 id="bluetiles"><a id="sec-3-5" name="sec-3-5"></a>Blue vowels and consonants</h3>
+<div class="outline-text-3" id="text-bluetiles">
 
-
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4">Blue vowels and consonants</h2>
-<div class="outline-text-2" id="text-4">
 <p>
 At any time, as a free action, you may replace a tile from your rack
 with a tile from the bag of blue vowel or the bag of blue consonants.
@@ -455,9 +507,9 @@ word.  You <b>may not</b> return a blue tile to its bag.
 </div>
 </div>
 
-<div id="outline-container-Replacing" class="outline-2">
-<h2 id="Replacing"><a id="sec-5" name="sec-5"></a>Replacing a hand</h2>
-<div class="outline-text-2" id="text-Replacing">
+<div id="outline-container-Replacing" class="outline-3">
+<h3 id="Replacing"><a id="sec-3-6" name="sec-3-6"></a>Replacing a hand</h3>
+<div class="outline-text-3" id="text-Replacing">
 
 <p>
 At the beginning of your turn, you can opt to return your entire rack
@@ -472,9 +524,9 @@ number of tiles, but each subsequent draw costs <span style="background-color: y
 </div>
 
 
-<div id="outline-container-Challenging" class="outline-2">
-<h2 id="Challenging"><a id="sec-6" name="sec-6"></a>Challenging a word</h2>
-<div class="outline-text-2" id="text-Challenging">
+<div id="outline-container-Challenging" class="outline-3">
+<h3 id="Challenging"><a id="sec-3-7" name="sec-3-7"></a>Challenging a word</h3>
+<div class="outline-text-3" id="text-Challenging">
 
 <p>
 Any word played in phase 1 or phase 2 can be challenged.  The
@@ -487,10 +539,11 @@ and may make a different play immediately.
 </p>
 </div>
 </div>
+</div>
 
 
 <div id="outline-container-Scoring" class="outline-2">
-<h2 id="Scoring"><a id="sec-7" name="sec-7"></a>Scoring words</h2>
+<h2 id="Scoring"><a id="sec-4" name="sec-4"></a>Scoring words</h2>
 <div class="outline-text-2" id="text-Scoring">
 
 <p>
@@ -506,7 +559,7 @@ At the end of the game:
 <li>The player with the most tiles (simple plurality) in a word wins
 that word.  Some examples: A five letter word requires that three
 letters be of one color in order to claim that word.  Here, white
-controls the word and receives <span style="background-color: yellow;">[3|5]</span> points:
+controls the word and receives <span style="background-color: yellow;">4 points</span> at game's end:
 
 
 <div class="figure">
@@ -517,7 +570,7 @@ controls the word and receives <span style="background-color: yellow;">[3|5]</sp
 <p>
 A seven letter word can be claimed by black if three tiles are
 black, two are white, and two have remained blue.  Here, black
-controls the word by plurality and receives <span style="background-color: yellow;">14</span> points at
+controls the word by plurality and receives <span style="background-color: yellow;">14 points</span> at
 game's end:
 </p>
 
@@ -532,7 +585,7 @@ game's end:
 
 <p>
 Here, black has claimed a fourth tile, thus black controls the word
-by majority and receives <span style="background-color: yellow;">21</span> points at game's end:
+by majority and receives <span style="background-color: yellow;">21 points</span> at game's end:
 </p>
 
 
@@ -566,11 +619,10 @@ control of this 6 letter word:
 Long words are rewarded.  Use the chart below for scoring.
 </p>
 </div>
-</div>
 
-<div id="outline-container-Scoring_chart" class="outline-2">
-<h2 id="Scoring_chart"><a id="sec-8" name="sec-8"></a>Scoring chart</h2>
-<div class="outline-text-2" id="text-Scoring_chart">
+<div id="outline-container-Scoring_chart" class="outline-3">
+<h3 id="Scoring_chart"><a id="sec-4-1" name="sec-4-1"></a>Scoring chart</h3>
+<div class="outline-text-3" id="text-Scoring_chart">
 
 <p>
 When a word is played it scores immediately according to the "When
@@ -710,9 +762,10 @@ words (which would otherwise score 0 points).
 </p>
 </div>
 </div>
+</div>
 
 <div id="outline-container-End_of_game" class="outline-2">
-<h2 id="End_of_game"><a id="sec-9" name="sec-9"></a>End of game</h2>
+<h2 id="End_of_game"><a id="sec-5" name="sec-5"></a>End of game</h2>
 <div class="outline-text-2" id="text-End_of_game">
 
 <p>
@@ -720,9 +773,10 @@ The game ends after <span style="background-color: yellow;">How many rounds?</sp
 </p>
 </div>
 
-<div id="outline-container-sec-9-1" class="outline-3">
-<h3 id="sec-9-1">Scoring</h3>
-<div class="outline-text-3" id="text-9-1">
+<div id="outline-container-scoring" class="outline-3">
+<h3 id="scoring"><a id="sec-5-1" name="sec-5-1"></a>Scoring</h3>
+<div class="outline-text-3" id="text-scoring">
+
 <ul class="org-ul">
 <li>Score each word on the board that has plurality or majority control
 according the table above
@@ -738,9 +792,10 @@ person controlling that word.
 </div>
 </div>
 
-<div id="outline-container-sec-9-2" class="outline-3">
-<h3 id="sec-9-2">Tie breaker</h3>
-<div class="outline-text-3" id="text-9-2">
+<div id="outline-container-tie" class="outline-3">
+<h3 id="tie"><a id="sec-5-2" name="sec-5-2"></a>Tie breaker</h3>
+<div class="outline-text-3" id="text-tie">
+
 <p>
 Highest score wins.  Fewest <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty tokens&thinsp;</span> is the
 first tie-breaker.  Most words controlled is the second tie-breaker.
@@ -758,10 +813,55 @@ Here's the end game at the end of the first play test of Control Word!
 </div>
 </div>
 </div>
+
+<div id="outline-container-glossary" class="outline-2">
+<h2 id="glossary"><a id="sec-6" name="sec-6"></a>Glossary</h2>
+<div class="outline-text-2" id="text-glossary">
+
+<ul class="org-ul">
+<li>A <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty token&thinsp;</span> is a tile taken from the bag of
+blue consonants and kept face down beside a players rack for the
+remainder of the game.  At scoring, <span style="font-weight: bold; font-family: monospace; color: white; background-color: blue;">&thinsp;penalty tokens&thinsp;</span>
+count against the score from words you control.
+</li>
+
+<li>A play mat shows the starting words for the game.  At the beginning
+of the game, the starting words are completely controlled by the
+blue non-player.  Control of these blue words can be seized during
+the replacement phase. 
+</li>
+
+<li><b>Plurality control</b> of a word: having the most tiles in a word of your
+color while having less than 50% of the letters.  For example, green
+has plurality of a 7 letter word when 3 letters are red, 2 letters
+are black, and two letters are green, e.g.:
+
+
+<div class="figure">
+<p><img src="images/bananas.png" alt="bananas.png" width="70%" />
+</p>
+</div>
+</li>
+</ul>
+
+<ul class="org-ul">
+<li><b>Majority control</b> of a word: having more than 50% of the tiles in a
+word in your color.  For example, green has majority control of a
+7 letter word when 4 of the tiles are green, e.g.:
+
+
+<div class="figure">
+<p><img src="images/against.png" alt="against.png" width="70%" />
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Bruce Ravel</p>
-<p class="date">Created: 2018-03-25 Sun 10:13</p>
+<p class="date">Created: 2018-03-25 Sun 11:11</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
