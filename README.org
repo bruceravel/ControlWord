@@ -7,25 +7,46 @@ player interaction.
 
 - Rules :: [[rules.org]]
 
-- Cards :: The SVG files, created using [[https://inkscape.org][Inkscape]], are printed (perhaps
-     after converting to PDF) and used for game play
+- Start mats :: The SVG files, created using [[https://inkscape.org][Inkscape]], are printed
+                (perhaps after converting to PDF) and used for game
+                play
 
 - Styling :: There are various CSS and latex files used to convert the
-     rules into a nice printable PDF file or an HTML page
+             rules into a nice printable PDF file or an HTML page
 
 - Build script :: The [[make_game.sh]] file is a simple shell script which
-     uses [[https://inkscape.org][Inkscape]], [[https://github.com/fniessen/orgmk][orgmk]], and pdflatex to make printable PDF files
-     used in the game.
+                  uses [[https://inkscape.org][Inkscape]], [[https://github.com/fniessen/orgmk][orgmk]], and pdflatex to make printable
+                  PDF files used in the game.
 
-To make the game, print 2 copies of [[1word.svg]], and one copy each of
-[[0words.svg]], [[2words.svg]], and [[remove.svg]].  Cut out the cards.  Use the
-four sheets of word cards to make the main rules deck.  These will be
-shuffled together and dealt to make the rules deck.  The cards from
-[[remove.svg]] are used to make the small deck of removal cards, which is
-shuffled before selecting one removal card to add to the rules deck.
+To make the game, print copies of the starting player mats and a copy
+of the rules.
 
 To play the game, you will also need at least three different colors
-of latter tiles, for example [[https://www.amazon.com/s?ie=UTF8&field-keywords=scrabble%20tiles][here are some possible choices]].
+of letter tiles, for example [[https://www.amazon.com/s?ie=UTF8&field-keywords=scrabble%20tiles][here are some possible choices]], one of
+which should be blue.
+
+You will also need two 6 sided dice.  The game uses specially-valued
+dice.  For the draw die, interpret the sides of a normal D6 like so:
+
+| If you roll | use this value |
+|-------------+----------------|
+|           1 |              6 |
+|           2 |              7 |
+|           3 |              7 |
+|           4 |              7 |
+|           5 |              8 |
+|           6 |              9 |
+
+For the replacement limit die, interpret the sides of a normal D6 like so:
+
+| If you roll | use this value |
+|-------------+----------------|
+|           1 |              2 |
+|           2 |              3 |
+|           3 |              3 |
+|           4 |              4 |
+|           5 |              4 |
+|           6 |              5 |
 
 The game can be played on any flat surface which is large enough to
 hold about 20 side-by-side tiles in both directions.

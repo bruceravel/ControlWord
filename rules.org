@@ -3,18 +3,19 @@
 #+SETUPFILE: "~/dotfiles/org/BR-org.setup"
 #+SETUPFILE: theme-readtheorg-local.setup
 #+LaTeX_HEADER: \input{header.tex}
+#+OPTIONS: toc:nil
 
 #+BEGIN_LaTeX
 \LARGE
 #+END_LaTeX
 
-Control Word is a tile laying word game much like a particular, very
-popular crossword board game, but with elements of area control and
-direct player interaction.  Each player plays words using a different
-color of tiles.  Points are scored by having the most tiles of your
-color in a word at the end of the game.  Longer words score more
-points.  The player who controls the most words and scores the most
-points is the winner!
+Control Word is a tile laying word game much like a popular crossword
+board game, but with elements of area control and direct player
+interaction.  Each player plays words using a different color of
+tiles.  Points are scored by having the most tiles of your color in a
+word at the end of the game.  Longer words score more points.  The
+player who controls the most words and scores the most points is the
+winner!
 
 In each round, each player will play a word formed from a rack of
 tiles.  Any tiles not used to play a word can be used to replace your
@@ -25,6 +26,7 @@ word.
 From round to round, turn order will vary, as will the number
 of tiles you can draw into your hand.
 #+END_COMMENT
+
 
 * Components
 :PROPERTIES:
@@ -38,6 +40,8 @@ of tiles you can draw into your hand.
 - 6 starting play mats, each containing four crossing words in blue.
 
 - 1 die with faces 6, 7, 7, 7, 8, 9.
+
+- 1 die with faces 2, 3, 3, 4, 4, 5.
 
 
 
@@ -110,16 +114,23 @@ You are now ready to play.  The play area should look like this:
 
 - *Plurality control* of a word: having the most tiles in a word of your
   color while having less than 50% of the letters.  For example, green
-  has plurality of a 7 letter word when 3 letters are green, 2 letters
-  are black, and two letters are red, e.g.:
+  has plurality of a 7 letter word when 3 letters are red, 2 letters
+  are black, and two letters are green, e.g.:
 
-  {{{tile(green,B)}}}{{{tile(black,A)}}}{{{tile(green,N)}}}{{{tile(green,A)}}}{{{tile(black,N)}}}{{{tile(darkred,A)}}}{{{tile(darkred,S)}}}
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/bananas.png]]
+
+#  {{{tile(green,B)}}}{{{tile(black,A)}}}{{{tile(green,N)}}}{{{tile(green,A)}}}{{{tile(black,N)}}}{{{tile(darkred,A)}}}{{{tile(darkred,S)}}}
 
 - *Majority control* of a word: having more than 50% of the tiles in a
   word in your color.  For example, green has majority control of a
   7 letter word when 4 of the tiles are green, e.g.:
 
-  {{{tile(green,A)}}}{{{tile(blue,G)}}}{{{tile(green,A)}}}{{{tile(green,I)}}}{{{tile(black,N)}}}{{{tile(darkred,S)}}}{{{tile(green,T)}}}
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/against.png]]
+#  {{{tile(green,A)}}}{{{tile(blue,G)}}}{{{tile(green,A)}}}{{{tile(green,I)}}}{{{tile(black,N)}}}{{{tile(darkred,S)}}}{{{tile(green,T)}}}
 
 * Playing the game
 :PROPERTIES:
@@ -129,8 +140,11 @@ You are now ready to play.  The play area should look like this:
 ** Roll phase
 
 The die is rolled.  The number that comes up is the number of tiles
-that each player will draw to at the end of the round.  /Round
-counter.../
+that each player will draw to at the end of the round.  /Set die on
+the round counter.../
+
+/{{{hl(Roll a die to set how many letters can be used in the replacement phase?)}}}/
+
 
 ** Word phase
 
@@ -160,7 +174,12 @@ score no points.  (2 and 3 letter words do score the bonus for the
 letters J, Q, X, and Z and can be controlled by a player for the
 purpose of the end-of-game tie-breaker.)
 
+A player may choose not to play a word, saving letters for the
+replacement phase.
+
+
 ** Replacement phase
+
 
 After the word phase, the starting player begins the replacement
 phase.  Passing to the left, all players take their replacement phase
@@ -192,7 +211,7 @@ replacement.
 
 Replaced tiles are discarded (*not* returned to the bag).
 
-
+A player may choose not to act in the replacement phase,
  
 
 
@@ -257,15 +276,24 @@ At the end of the game:
 
    #+ATTR_HTML: :width 50%
    #+ATTR_LATEX: :width 8cm
-   [[file:images/plurality5.jpg]]
+   [[file:images/grail.png]]
 
    A seven letter word can be claimed by black if three tiles are
    black, two are white, and two have remained blue.  Here, black
-   controls the word and receives {{{hl([8|14])}}} points:
+   controls the word by plurality and receives {{{hl(14)}}} points at
+   game's end:
 
    #+ATTR_HTML: :width 70%
    #+ATTR_LATEX: :width 8cm
-   [[file:images/plurality7.jpg]]
+   [[file:images/mundane.png]]
+
+
+   Here, black has claimed a fourth tile, thus black controls the word
+   by majority and receives {{{hl(21)}}} points at game's end:
+
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/mundane2.png]]
 
 
  * Any word for which the blue tiles have plurality or majority
@@ -275,9 +303,13 @@ At the end of the game:
    tied for the most tiles does not score for any player.
 
  * Controlling 1/2 the letters of an even-length word counts as
-   majority.  For example, green has majority of this 6 letter word:
+   majority.  For example, with three tiles, green has majority
+   control of this 6 letter word:
 
-   {{{tile(green,S)}}}{{{tile(black,T)}}}{{{tile(green,A)}}}{{{tile(green,R)}}}{{{tile(black,T)}}}{{{tile(darkred,S)}}}
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/starts.png]]
+# {{{tile(green,S)}}}{{{tile(black,T)}}}{{{tile(green,A)}}}{{{tile(green,R)}}}{{{tile(black,T)}}}{{{tile(darkred,S)}}}
 
 Long words are rewarded.  Use the chart below for scoring.
 
@@ -331,11 +363,17 @@ words (which would otherwise score 0 points).
 
 The game ends after {{{hl(How many rounds?)}}}.
 
-Score each word on the board according the rules above, awarding
-{{{hl(4 bonus point)}}} bonus for each J, Q, X, or Z to the person
-controlling that word.
+** Scoring
 
-Each {{{tile(blue,penalty token)}}} counts for {{{hl(-5 points)}}}.
+- Score each word on the board that has plurality or majority control
+  according the table above
+
+- Award {{{hl(4 bonus point)}}} bonus for each J, Q, X, or Z to the
+  person controlling that word.
+
+- Each {{{tile(blue,penalty token)}}} counts for {{{hl(-5 points)}}}.
+
+** Tie breaker
 
 Highest score wins.  Fewest {{{tile(blue,penalty tokens)}}} is the
 first tie-breaker.  Most words controlled is the second tie-breaker.
@@ -348,6 +386,10 @@ Here's the end game at the end of the first play test of Control Word!
 
 
 #+BEGIN_LaTeX
+\newpage
+
+~
+
 \newpage
 
 ~
