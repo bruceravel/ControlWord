@@ -4,7 +4,7 @@
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en
-#+OPTIONS:   H:4 num:t toc:2
+#+OPTIONS:   H:4 num:t toc:3
 
 #+SETUPFILE: ~/src/org-html-themes/setup/theme-readtheorg-local-abs.setup
 
