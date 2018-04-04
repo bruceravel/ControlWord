@@ -8,18 +8,19 @@
 \LARGE
 #+END_LaTeX
 
-Control Word is a tile laying word game much like a popular crossword
-board game, but with elements of area control and direct player
-interaction.  Each player plays words using a different color of
-tiles.  Points are scored by having the most tiles of your color in a
-word at the end of the game.  Longer words score more points.  The
+Control Word is a tile laying crossword game much like a popular
+crossword board game, but with elements of area control and direct
+player interaction.  Each player plays words using a different color
+of tiles.  Points are scored by having the most tiles of your color in
+a word at the end of the game.  Longer words score more points.  The
 player who controls the most words and scores the most points is the
 winner!
 
 In each round, each player will play a word formed from a rack of
 tiles.  Any tiles not used to play a word can be used to replace your
-opponent's tiles, possibly allowing you to wrest away control of that
-word.  
+opponent's tiles in an attempt to gain control of that word.  At the
+end of the game, you will score points for words that you control by
+having the most letters in your tile color.
 
 #+BEGIN_COMMENT
 From round to round, turn order will vary, as will the number
@@ -38,7 +39,7 @@ of tiles you can draw into your hand.
 
 - 6 starting play mats, each containing four crossing words in blue.
 
-- 1 die with faces 6, 7, 7, 7, 8, 9.
+- 1 die with faces 6, 7, 7, 8, 8, 9.
 
 - 1 die with faces 2, 3, 3, 4, 4, 5.
 
@@ -50,7 +51,7 @@ rolls of the draw die and the replacement limit die:
 |           1 |                    6 |                            2  |
 |           2 |                    7 |                            3  |
 |           3 |                    7 |                            3  |
-|           4 |                    7 |                            4  |
+|           4 |                    8 |                            4  |
 |           5 |                    8 |                            4  |
 |           6 |                    9 |                            5  |
 
@@ -70,22 +71,26 @@ to simply play right on the table.
    which depict four crossing words printed in blue.  Place this in
    the center of the table.
 
-2. Roll the 6-sided die.  Each player will draw a number of tiles
+2. Each player claims a bag of tiles in the color of their choice.
+
+3. Roll the draw die (white).  Each player will draw a number of tiles
    equal to the number rolled.
 
-3. Each player claims a color of tiles.  Draw a number of tiles equal
-   to the die roll.
+4. Roll the replacement die (red).  This sets the number of tiles that
+   can be played in the replacement phase.
 
-4. Place the bags of blue vowels and blue consonants within easy reach
+5. Place the draw and replacement dice on round 1 of the round counter
+   mat.
+
+6. Place the bags of blue vowels and blue consonants within easy reach
    of the play area.
 
-5. Each player draws a tile from the bag.  The lowest (closest to A)
+7. Each player draws a tile from the bag.  The lowest (closest to A)
    letter is the first player.  Return these tiles to the bag and give
    the first player token to the first player.
 
 
-{{{hl(How many rounds?)}}}  Maybe make a round counter mat.  Move the
-draw die forward each round....
+{{{hl(How many rounds?)}}}
 
 
 #+BEGIN_COMMENT
@@ -105,7 +110,7 @@ Market setup
 
 You are now ready to play.  The play area should look like this:
 
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :width 70%
 #+ATTR_LATEX: :width 8cm
 [[file:images/setup.jpg]]
 
@@ -121,12 +126,13 @@ You are now ready to play.  The play area should look like this:
 :CUSTOM_ID: rollphase
 :END:
 
-The die is rolled.  The number that comes up is the number of tiles
-that each player will draw to at the end of the round.  /Set die on
-the round counter.../
+The dice are rolled.  The draw die (white) sets how many tiles are
+drawn to the rack at the end of the round.  The replacement die (red)
+sets how many tiles may be played in the replacement phase during this
+round.
 
-/{{{hl(Roll a die to set how many letters can be used in the replacement phase?)}}}/
-
+Place the draw and replacement dice on the round counter mat to
+indicate the current round number.
 
 ** Word phase
 :PROPERTIES:
@@ -143,7 +149,8 @@ A word must be an English-language word.  Players should agree upon a
 dictionary to use for resolving challenges.  Proper nouns,
 foreign-language words not adopted into English, acronyms, and
 abbreviations are not allowed.  In short, the rules for allowable
-words are the same as the popular word game that this game resembles.
+words are the same as the vastly more popular word game that this game
+resembles.
 
 Word placement rules from that other crossword game apply.  New words
 are formed by 
@@ -156,11 +163,18 @@ are formed by
 - Placing a complete word parallel to a word already played so that
   adjacent letters also form complete words.
 
-Note the scoring chart below.  Unlike other word games, each letter is
-of equal value.  Longer words score more points.  2 and 3 letter words
-score no points.  (2 and 3 letter words do score the bonus for the
-letters J, Q, X, and Z and can be controlled by a player for the
+In Control Word, Unlike other word games, each letter is of equal
+value.  Longer words score more points.  2 and 3 letter words score no
+points.  (2 and 3 letter words can be controlled by a player for the
 purpose of the end-of-game tie-breaker.)
+
+Note that adding to the beginning or end of a word is an action of the
+word phase rather than the replacement phase, as in this example:
+
+   #+ATTR_HTML: :width 70%
+   #+ATTR_LATEX: :width 8cm
+   [[file:images/bookkeeper.png]]
+
 
 A player may choose not to play a word, saving letters for the
 replacement phase.
@@ -184,8 +198,8 @@ including the spaces on the starting word mat.  To replace a letter on
 the start mat, simply place a tile in your color on top of that letter
 on the mat.
 
-More than one tile in a word can be replaced in a turn, however all
-words must still be words at the end of each player's turn.
+More than one tile in a word can be replaced in a turn, so long as all
+words are still words at the end of each player's turn.
 
 The simplest replacement phase action is to replace a letter of a
 different color with the same letter of your color.  Replacing a
@@ -221,10 +235,10 @@ limit determined in the roll phase.
 :END:
 
 At any time, as a free action, you may replace a tile from your rack
-with a tile from the bag of blue vowel or the bag of blue consonants.
-Simply return one of your tiles to your bag (it is *not* discarded)
-and draw a tile from one of the blue bags.  You may repeat this free
-action any number of times.
+with a tile from either the bag of blue vowels or the bag of blue
+consonants.  Simply return one of your tiles to your bag (it is *not*
+discarded) and draw a tile from one of the blue bags.  You may repeat
+this free action any number of times.
 
 Using the blue tiles in this way can help repair a rack lacking either
 vowels or consonants, allowing you to play a longer, more valuable
@@ -232,9 +246,9 @@ word.  The drawback is that the word you play will have fewer tiles of
 your color, weakening your control over the word.
 
 The only way to remove a blue tile from your rack is to play it in a
-word.  You *may not* return a blue tile to its bag.
+word.  You *may not* return a blue tile to its bag when replacing a rack.
 
-** Replacing a hand
+** Replacing a rack
 :PROPERTIES:
 :CUSTOM_ID: Replacing
 :END:
@@ -242,10 +256,10 @@ word.  You *may not* return a blue tile to its bag.
 At the beginning of your turn, you can opt to return your entire rack
 of tiles -- except for any blue tiles on your rack -- to your bag.
 Shake the bag to mix the tiles, redraw to 2 less than the current rack
-limit, then proceed with your turn.  If you are still unsatisfied with
-your rack, you may redraw as many times as you like to that same
-number of tiles, but each subsequent draw costs {{{hl(one/two)}}}
-{{{tile(blue,penalty tokens)}}}.
+limit (but a minimum of 5), then proceed with your turn.  If you are
+still unsatisfied with your rack, you may redraw as many times as you
+like to that same number of tiles, but each subsequent draw costs
+two {{{tile(blue,penalty tokens)}}}.
 
 
 ** Challenging a word
@@ -268,23 +282,24 @@ and may make a different play immediately.
 :END:
 
 When a word is played, that player scores immediately based on the
-length of the word, as given in the table below.
+length of the word, as given in the "When played" column in table
+below.
 
 At the end of the game:
 
- * The player with the most tiles (simple plurality) in a word wins
+ * The player with the most tiles (simple plurality) in a word scores
    that word.  Some examples: A five letter word requires that three
    letters be of one color in order to claim that word.  Here, white
-   controls the word and receives {{{hl(4 points)}}} at game's end:
+   controls the word with majority and receives {{{hl(6 points)}}} at
+   game's end:
 
    #+ATTR_HTML: :width 50%
    #+ATTR_LATEX: :width 8cm
    [[file:images/grail.png]]
 
-   A seven letter word can be claimed by black if three tiles are
-   black, two are white, and two have remained blue.  Here, black
-   controls the word by plurality and receives {{{hl(14 points)}}} at
-   game's end:
+   This seven letter word is scored by black as there are three black
+   tiles, two white, and two have remained blue.  Black controls the
+   word by plurality and receives {{{hl(14 points)}}} at game's end:
 
    #+ATTR_HTML: :width 70%
    #+ATTR_LATEX: :width 8cm
@@ -298,16 +313,15 @@ At the end of the game:
    #+ATTR_LATEX: :width 8cm
    [[file:images/mundane2.png]]
 
-
  * Any word for which the blue tiles have plurality or majority
    control does not score for any player.
 
- * Any word for for which two (or more) colors (including blue) are
-   tied for the most tiles does not score for any player.
+ * Any word for which two (or more) colors (including blue) are tied
+   for control does not score for any player.
 
  * Controlling 1/2 the letters of an even-length word counts as
    majority.  For example, with three tiles, green has majority
-   control of this 6 letter word:
+   control of this 6 letter word, scoring {{{hl(12 points)}}}:
 
    #+ATTR_HTML: :width 70%
    #+ATTR_LATEX: :width 8cm
@@ -346,18 +360,16 @@ majority of letters in the word.
 #+TBLFM: $4=$2*3
 
 
-Formula: 
-
-Word length = 2 or 3 gets 0 points.  For word length 4+:
+- Formula :: Word length = 2 or 3 gets 0 points.  For word length 4+:
  - n = word length
  - x = n-3
  - in-game score = (x^2 - x + 2) / 2
  - plurality = in-game * 2
  - majority  = in-game * 3
 
-Each J, Q, X, or Z in a word scores a {{{hl(2 point)}}} bonus for the
-player playing that word.  This bonus is scored even for 2 or 3 letter
-words (which would otherwise score 0 points).
+Each J, Q, X, or Z in a word scores a {{{hl(4 point)}}} bonus for the
+player playing that word.  This bonus is scored when the word is
+played and only scores for words which are 4 or more letters long.
 
 * End of game
 :PROPERTIES:
@@ -372,10 +384,7 @@ The game ends after {{{hl(How many rounds?)}}}.
 :END:
 
 - Score each word on the board that has plurality or majority control
-  according the table above
-
-- Award {{{hl(4 bonus point)}}} bonus for each J, Q, X, or Z to the
-  person controlling that word.
+  according the table above.
 
 - Each {{{tile(blue,penalty token)}}} counts for {{{hl(-5 points)}}}.
 
@@ -387,7 +396,7 @@ The game ends after {{{hl(How many rounds?)}}}.
 Highest score wins.  Fewest {{{tile(blue,penalty tokens)}}} is the
 first tie-breaker.  Most words controlled is the second tie-breaker.
 
-Here's the end game at the end of the first play test of Control Word!
+Here's the end game after the first play test of Control Word!
 
 #+ATTR_HTML: :width 70%
 #+ATTR_LATEX: :width 8cm

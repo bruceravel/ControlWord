@@ -4,9 +4,9 @@ org2latex rules.org
 pdflatex rules.tex
 pdflatex book.tex
 
-files='0words 1word 2words remove'
+files='start1 start2 start3 start4 start5 start6 round_counter'
 for f in $files; do
     inkscape -A $f.pdf $f.svg
 done
 
-pdfunite 0words.pdf 1word.pdf 1word.pdf 2words.pdf remove.pdf all_rules.pdf
+pdfunite round_counter start1 start2 start3 start4 start5 start6 game_materials.pdf
